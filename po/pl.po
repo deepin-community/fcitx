@@ -1,0 +1,3416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Grzegorz Ciężarkiewicz <pegaz19803@gmail.com>, 2021
+# Piotr Strębski <strebski@gmail.com>, 2021
+# Maggie Liu <maggie.liufei@gmail.com>, 2021
+# Cindy0514, 2022
+# Janusz Ruchała, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
+"POT-Creation-Date: 2021-04-23 00:01+0100\n"
+"PO-Revision-Date: 2021-11-18 02:22+0000\n"
+"Last-Translator: Janusz Ruchała, 2022\n"
+"Language-Team: Polish (https://www.transifex.com/linuxdeepin/teams/3617/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: data/script/fcitx-configtool.sh:144
+msgid ""
+"You're currently running KDE, but KCModule for fcitx couldn't be found, the "
+"package name of this KCModule is usually kcm-fcitx or kde-config-fcitx. Now "
+"it will open config file with default text editor."
+msgstr ""
+"Korzystasz aktualnie z KDE, jednakże KCModule dla fctix nie został "
+"znaleziony, nazwa pakietu KCModule zazwyczaj nazywa się kcm-fcitx lub kde-"
+"config-fcitx. Otworzy się teraz plik konfiguracyjny przy użyciu domyślnego "
+"edytora tekstu."
+
+#: data/script/fcitx-configtool.sh:147
+msgid ""
+"You're currently running Fcitx with GUI, but fcitx-configtool couldn't be "
+"found, the package name is usually fcitx-config-gtk, fcitx-config-gtk3 or "
+"fcitx-configtool. Now it will open config file with default text editor."
+msgstr ""
+"Korzystasz aktualnie z Fcitx z GUI, ale fctix-configtool nie został "
+"znaleziony, nazwa pakietu to zazwyczaj fcitx-config-gtk, fcitx-config-gtk3 "
+"lub fcitx-configtool. Otworzy się teraz plik konfiguracyjny przy użyciu "
+"domyślnego edytora tekstu."
+
+#: data/script/fcitx-diagnose.sh:514
+msgid "${1} not found."
+msgstr "${1} nie znaleziono."
+
+#: data/script/fcitx-diagnose.sh:655
+msgid "Beginner's Guide"
+msgstr "Poradnik dla Początkujących"
+
+#: data/script/fcitx-diagnose.sh:656
+msgid "/Beginner%27s_Guide"
+msgstr "/Beginner%27s_Guide"
+
+#: data/script/fcitx-diagnose.sh:663
+msgid ""
+"Please set environment variable ${env_name} to \"${value}\" using the tool "
+"your distribution provides or add ${1} to your ${2}. See ${link}."
+msgstr ""
+"Proszę ustawić zmienną środowiskową ${env_name} na \"${value}\" korzystając "
+"z narzędzi które dostarcza twoja dystrybucja lub dodaj ${1} do twoich ${2}. "
+"Zobacz ${link}."
+
+#: data/script/fcitx-diagnose.sh:666
+msgid "Input Method Related Environment Variables: "
+msgstr "Metody Wprowadzania związane zmienne środowiskowe: "
+
+#: data/script/fcitx-diagnose.sh:667
+msgid "/Input_method_related_environment_variables"
+msgstr "/Input_method_related_environment_variables"
+
+#: data/script/fcitx-diagnose.sh:682
+msgid "Note for GNOME Later than 3.6"
+msgstr "Notka dla Gnome 3.6+"
+
+#: data/script/fcitx-diagnose.sh:683
+msgid "/Note_for_GNOME_Later_than_3.6"
+msgstr "/Note_for_GNOME_Later_than_3.6"
+
+#: data/script/fcitx-diagnose.sh:689
+msgid ""
+"If you are using ${1}, you may want to uninstall ${2}, remove ${3} or use "
+"the command ${g36_disable_ibus} to disable IBus integration in order to use "
+"any input method other than ${2}. See ${link} for more detail."
+msgstr ""
+"Jeśli korzystasz z ${1}, możesz chcieć odinstalować ${2}, usuń ${3} lub "
+"skorzystaj z komendy ${g36_disable_ibus}, aby wyłączyć integrację IBus, by "
+"móc korzystać z każdej metody wprowadzenia innej niż ${2}. Zobacz ${link}, "
+"aby dowiedzieć się więcej."
+
+#: data/script/fcitx-diagnose.sh:691
+msgid ""
+"If you are using ${1}, you may want to uninstall ${2} or remove ${3} in "
+"order to use any input method other than ${2}. See ${link} for more detail "
+"as well as alternative solutions."
+msgstr ""
+"Jeśli korzystasz z ${1}, możesz chcieć odinstalować ${2} lub usunąć ${3}, by"
+" móc korzystać z metod wprowadzania innych niż ${2}. Zobacz ${link}, aby "
+"uzyskać więcej szczegółów jak i alternatywnych rozwiązań."
+
+#: data/script/fcitx-diagnose.sh:699
+#, sh-format
+msgid ""
+"To see some application specific problems you may have when using xim, check"
+" ${link1}. For other more general problems of using XIM including "
+"application freezing, see ${link2}."
+msgstr ""
+"Aby zobaczyć niektóre problemy ze strony aplikacji, które możesz napotkać "
+"podczas korzystania z XIM, zobacz ${link1}. Dla bardziej ogólnych problemów "
+"związanych z XIM, włączając zawieszanie się aplikacji zobacz ${link2}."
+
+#: data/script/fcitx-diagnose.sh:702
+msgid "Hall of Shame for Linux IME Support"
+msgstr "Sala Wstydu dla wsparcia IME na Linuksie."
+
+#: data/script/fcitx-diagnose.sh:703
+msgid "/Hall_of_Shame_for_Linux_IME_Support"
+msgstr "/Hall_of_Shame_for_Linux_IME_Support"
+
+#: data/script/fcitx-diagnose.sh:706
+msgid "here"
+msgstr "tutaj"
+
+#: data/script/fcitx-diagnose.sh:707
+msgid "/XIM"
+msgstr "/XIM"
+
+#: data/script/fcitx-diagnose.sh:743
+msgid "System Info:"
+msgstr "Info systemu:"
+
+#: data/script/fcitx-diagnose.sh:771
+msgid "Desktop Environment:"
+msgstr "Środowisko Graficzne:"
+
+#: data/script/fcitx-diagnose.sh:774
+msgid "Cannot determine desktop environment."
+msgstr "Nie udało się ustalić środowiska graficznego."
+
+#: data/script/fcitx-diagnose.sh:776
+msgid "Desktop environment is ${1}."
+msgstr "Środowisko graficzne to ${1}."
+
+#: data/script/fcitx-diagnose.sh:779
+msgid "Bash Version:"
+msgstr "Wersja Bash:"
+
+#: data/script/fcitx-diagnose.sh:784
+msgid "Environment:"
+msgstr "Środowisko:"
+
+#: data/script/fcitx-diagnose.sh:787
+msgid "Keyboard Layout:"
+msgstr "Układ klawiatury:"
+
+#: data/script/fcitx-diagnose.sh:802
+msgid "Locale:"
+msgstr "Ustawienia Regionalne:"
+
+#: data/script/fcitx-diagnose.sh:805
+msgid "All locales:"
+msgstr "Wszystkie Ustawienia Regionalne:"
+
+#: data/script/fcitx-diagnose.sh:807
+msgid "Current locale:"
+msgstr "Aktualne Ustawienia Regionalne: "
+
+#: data/script/fcitx-diagnose.sh:811
+msgid "Error occurs when running ${1}. Please check your locale settings."
+msgstr ""
+"Wystąpiły błędy podczas działania ${1}. Proszę sprawdź swoje ustawienia "
+"regionalne."
+
+#: data/script/fcitx-diagnose.sh:819
+msgid "Directories:"
+msgstr "Katalogi:"
+
+#: data/script/fcitx-diagnose.sh:821
+msgid "Home:"
+msgstr "Katalog domowy:"
+
+#: data/script/fcitx-diagnose.sh:825
+msgid "Environment variable ${1} is not set."
+msgstr "Zmienna środowiskowa ${1} nie została ustawiona."
+
+#: data/script/fcitx-diagnose.sh:829
+msgid "Environment variable ${1} is set to ${2}."
+msgstr "Zmienna środowiskowa ${1} jest ustawiona na ${2}."
+
+#: data/script/fcitx-diagnose.sh:833
+msgid "Current value of ${1} is ${2} (${3})."
+msgstr "Aktualna wartość ${1} to ${2} (${3})."
+
+#: data/script/fcitx-diagnose.sh:837
+msgid "Fcitx Settings Directory:"
+msgstr "Ustawienia Katalogów Fcitx:"
+
+#: data/script/fcitx-diagnose.sh:839
+msgid "Current fcitx settings directory is ${1} (${2})."
+msgstr "Aktualne ustawienia katalogów Fcitx to ${1} (${2})."
+
+#: data/script/fcitx-diagnose.sh:844
+msgid "Current user:"
+msgstr "Aktualny użytkownik:"
+
+#: data/script/fcitx-diagnose.sh:845
+msgid "The script is run as ${1} (${2})."
+msgstr "Skrypt jest włączony jako ${1} (${2})."
+
+#: data/script/fcitx-diagnose.sh:850
+msgid "${1} Environment Variables:"
+msgstr "${1} Zmiennych Środowiskowych:"
+
+#: data/script/fcitx-diagnose.sh:856
+msgid "${1} is set to ${2}."
+msgstr "${1} jest ustawiony na ${2}."
+
+#: data/script/fcitx-diagnose.sh:859
+msgid "${1} is not set."
+msgstr "${1} nie jest ustawiony."
+
+#: data/script/fcitx-diagnose.sh:866
+msgid "Running as root:"
+msgstr "Działa jako administrator:"
+
+#: data/script/fcitx-diagnose.sh:869
+msgid ""
+"You are probably using ${1} to run this script. This means the result of "
+"this script may not be accurate. See ${2} for more information."
+msgstr ""
+"Prawdopodobnie korzystasz z ${1}, aby włączyć ten skrypt. To oznacza, że "
+"wyniki tego skryptu mogą nie być akuratne. Zobacz ${2}, aby dowiedzieć się "
+"więcej."
+
+#: data/script/fcitx-diagnose.sh:871 data/script/fcitx-diagnose.sh:877
+msgid "sudo environment variables"
+msgstr "sudo zmienne środowiskowe"
+
+#: data/script/fcitx-diagnose.sh:874
+msgid ""
+"You are probably logging in as ${1} or using ${2} to run this script. This "
+"either means you have security problems or the result of this script may not"
+" be accurate. See ${3} or ${4} for more information."
+msgstr ""
+"Prawdopodobnie logujesz się jako ${1} lub korzystasz z ${2}, aby uruchomić "
+"ten skrypt. To może oznaczać, że posiadasz problemy z zabezpieczeniami albo "
+"wyniki tego skryptu mogą być nie akuratne. Zobacz ${3} lub ${4}, aby "
+"dowiedzieć się więcej."
+
+#: data/script/fcitx-diagnose.sh:876
+msgid "Why is it bad to run as root"
+msgstr "Dlaczego nie powinno się uruchamiać jako administrator"
+
+#: data/script/fcitx-diagnose.sh:885
+msgid "Fcitx State:"
+msgstr "Stan Fcitx:"
+
+#: data/script/fcitx-diagnose.sh:886
+msgid "executable:"
+msgstr "wykonywalny:"
+
+#: data/script/fcitx-diagnose.sh:888
+msgid "Cannot find fcitx executable!"
+msgstr "Nie udało się znaleźć pliku wykonywalnego Fcitx!"
+
+#: data/script/fcitx-diagnose.sh:890
+msgid "Please check ${1} for how to install fcitx."
+msgstr "Proszę sprawdź ${1}, aby dowiedzieć się jak zainstalować Fcitx."
+
+#: data/script/fcitx-diagnose.sh:894
+msgid "Found fcitx at ${1}."
+msgstr "Znaleziono fcitx w ${1}."
+
+#: data/script/fcitx-diagnose.sh:896
+msgid "version:"
+msgstr "wersja:"
+
+#: data/script/fcitx-diagnose.sh:899
+msgid "Fcitx version: ${1}"
+msgstr "Wersja Fcitx: ${1}"
+
+#: data/script/fcitx-diagnose.sh:900
+msgid "process:"
+msgstr "proces:"
+
+#: data/script/fcitx-diagnose.sh:910
+msgid "Fcitx is not running."
+msgstr "Fcitx nie jest włączony."
+
+#: data/script/fcitx-diagnose.sh:912
+msgid ""
+"Please check the Configure link of your distribution in ${1} for how to "
+"setup fcitx autostart."
+msgstr ""
+"Proszę sprawdź link konfiguracyjny twojej dystrybucji w ${1}, aby dowiedzieć"
+" się jak ustawić fcitx autostart."
+
+#: data/script/fcitx-diagnose.sh:917
+msgid "Found ${1} fcitx processes:"
+msgstr "Znaleziono ${1} procesów fcitx:"
+
+#: data/script/fcitx-diagnose.sh:919
+msgid "Found ${1} fcitx process:"
+msgstr "Znaleziono ${1} fcitx proces:"
+
+#: data/script/fcitx-diagnose.sh:925
+msgid "Cannot connect to fcitx correctly."
+msgstr "Nie udało się połączyć poprawnie do fcitx."
+
+#: data/script/fcitx-diagnose.sh:927
+msgid "${1} works properly."
+msgstr "${1} działa prawidłowo."
+
+#: data/script/fcitx-diagnose.sh:933
+msgid "DBus interface:"
+msgstr "Interfejs DBus: "
+
+#: data/script/fcitx-diagnose.sh:935
+msgid "Using ${1} to check dbus."
+msgstr "Korzystanie z ${1}, aby sprawdzić dbus."
+
+#: data/script/fcitx-diagnose.sh:940
+msgid "Owner of DBus name ${1} is ${2}."
+msgstr "Właściciel nazwy DBus ${1} to ${2}."
+
+#: data/script/fcitx-diagnose.sh:944
+msgid "Cannot find DBus name ${1} owner."
+msgstr "Nie udało się znaleźć nazwy właściciela DBus ${1}."
+
+#: data/script/fcitx-diagnose.sh:948
+msgid "PID of DBus name ${1} owner is ${2}."
+msgstr "PID nazwy DBus: ${1}, właściciel to ${2}."
+
+#: data/script/fcitx-diagnose.sh:952
+msgid "Cannot find pid of DBus name ${1} owner."
+msgstr "Nie udało się znaleźć PID nazwy właściciela DBus ${1}."
+
+#: data/script/fcitx-diagnose.sh:956
+msgid "Unable to find a program to check dbus."
+msgstr "Nie udało się znaleźć programu do sprawdzenia DBus."
+
+#: data/script/fcitx-diagnose.sh:992
+msgid "Config GUI for gtk${1}:"
+msgstr "Konfiguracja GUI dla gtk${1}:"
+
+#: data/script/fcitx-diagnose.sh:996
+msgid "Config GUI for gtk${1} not found."
+msgstr "Konfiguracja GUI dla gtk${1} nie została znaleziona."
+
+#: data/script/fcitx-diagnose.sh:1005
+msgid "Found ${1} at ${2}."
+msgstr "Znaleziono ${1} w ${2}."
+
+#: data/script/fcitx-diagnose.sh:1012
+msgid "Config GUI for kde:"
+msgstr "Konfiguracja GUI dla KDE:"
+
+#: data/script/fcitx-diagnose.sh:1018
+msgid "Found fcitx kcm module."
+msgstr "Znaleziono moduł KCM Fcitx."
+
+#: data/script/fcitx-diagnose.sh:1027
+msgid "Fcitx Configure UI:"
+msgstr "Konfiguracja UI Fcitx:"
+
+#: data/script/fcitx-diagnose.sh:1028
+msgid "Config Tool Wrapper:"
+msgstr "Wrapper dla narzędzia konfiguracyjnego:"
+
+#: data/script/fcitx-diagnose.sh:1030
+msgid "Cannot find fcitx-configtool executable!"
+msgstr "Nie udało się znaleźć pliku wykonywalnego fcitx-configtool! "
+
+#: data/script/fcitx-diagnose.sh:1032
+msgid "Found fcitx-configtool at ${1}."
+msgstr "Znaleziono fcitx-configtool w ${1}."
+
+#: data/script/fcitx-diagnose.sh:1040
+msgid ""
+"Cannot find a GUI config tool, please install one of ${1}, ${2}, or ${3}."
+msgstr ""
+"Nie udało się znaleźć narzędzia konfiguracyjnego GUI, proszę zainstaluj "
+"jedno z podanych: ${1}, ${2} lub ${3}."
+
+#: data/script/fcitx-diagnose.sh:1053
+msgid "Environment variable ${1} is set to \"${2}\" correctly."
+msgstr "Zmienna środowiskowa ${1} ustawiona na \"${2}\" poprawnie."
+
+#: data/script/fcitx-diagnose.sh:1059
+msgid ""
+"Environment variable ${1} is \"${2}\" instead of \"${3}\". Please check if "
+"you have exported it incorrectly in any of your init files."
+msgstr ""
+"Zmienna środowiskowa ${1} jest ustawiona na \"${2}\" zamiast \"${3}\". "
+"Proszę sprawdź, czy jest ona eksportowana poprawnie w każdym pliku init."
+
+#: data/script/fcitx-diagnose.sh:1068
+msgid "XMODIFIERS is not set"
+msgstr "XMODIFIERS nie zostało ustawione"
+
+#: data/script/fcitx-diagnose.sh:1081
+msgid "Cannot interpret XMODIFIERS: ${1}."
+msgstr "Błąd interpretacji XMODIFIERS: ${1}."
+
+#: data/script/fcitx-diagnose.sh:1089
+msgid "Xim Server Name from Environment variable is ${1}."
+msgstr "Nazwa Serwera Xim ze zmiennej środowiskowej to ${1}."
+
+#: data/script/fcitx-diagnose.sh:1091
+msgid "XIM_SERVERS on root window:"
+msgstr "XIM_SERVERS na oknie administratora:"
+
+#: data/script/fcitx-diagnose.sh:1101
+msgid "Xim server name is the same with that set in the environment variable."
+msgstr ""
+"Nazwa serwera Xim jest taka sama jak ustawiona w zmiennej środowiskowej."
+
+#: data/script/fcitx-diagnose.sh:1103
+msgid ""
+"Xim server name: \"${1}\" is different from that set in the environment "
+"variable: \"${2}\"."
+msgstr ""
+"Nazwa serwera Xim: \"${1}\" jest inna niż ta ustawiona w zmiennej "
+"środowiskowej: \"${2}\"."
+
+#: data/script/fcitx-diagnose.sh:1107
+msgid "Cannot find xim_server on root window."
+msgstr "Nie udało się znaleźć xim_server na oknie administratora."
+
+#: data/script/fcitx-diagnose.sh:1113
+msgid "XIM for Emacs:"
+msgstr "XIM dla Emacs:"
+
+#: data/script/fcitx-diagnose.sh:1115
+msgid ""
+"Your LC_CTYPE is set to ${1} instead of one of zh, ja, ko. You may not be "
+"able to use input method in emacs because of an really old emacs bug that "
+"upstream refuse to fix for years."
+msgstr ""
+"Twój LC_CTYPE jest ustawiony na ${1} zamiast na zh, ja, ko. Nie będziesz "
+"mógł korzystać z metod wejścia w emacs z powodu bardzo starego buga, który "
+"ma w nim miejsce."
+
+#: data/script/fcitx-diagnose.sh:1118
+msgid "XIM encoding:"
+msgstr "Kodowanie XIM:"
+
+#: data/script/fcitx-diagnose.sh:1120
+msgid ""
+"Your LC_CTYPE is set to ${1} whose encoding is not UTF-8. You may have "
+"trouble committing strings using XIM."
+msgstr ""
+"Twój LC_CTYPE jest ustawiony na ${1}, którego kodowanie nie jest UTF-8. "
+"Możesz napotkać problemy podczas komitowania napisów korzystając z XIM."
+
+#: data/script/fcitx-diagnose.sh:1140
+msgid "You are using xim in ${1} programs."
+msgstr "Korzystasz z XIM w ${1} aplikacjach."
+
+#: data/script/fcitx-diagnose.sh:1145
+msgid "You may have trouble using fcitx in ${1} programs."
+msgstr "Możesz napotkać problemy korzystając z Fcitx w ${1} aplikacjach."
+
+#: data/script/fcitx-diagnose.sh:1171
+msgid "Qt IM module files:"
+msgstr "QT MW pliki modułowe:"
+
+#: data/script/fcitx-diagnose.sh:1178 data/script/fcitx-diagnose.sh:1183
+msgid "Found fcitx im module for ${2}: ${1}."
+msgstr "Znaleziono moduł Fctix MW dla ${2}: ${1}."
+
+#: data/script/fcitx-diagnose.sh:1187
+msgid "Found fcitx qt module: ${1}."
+msgstr "Znaleziono moduł Fcitx QT: ${1}."
+
+#: data/script/fcitx-diagnose.sh:1190
+msgid "Found unknown fcitx qt module: ${1}."
+msgstr "Znaleziono nieznany moduł Fcitx QT: ${1}."
+
+#: data/script/fcitx-diagnose.sh:1197 data/script/fcitx-diagnose.sh:1202
+msgid "Cannot find fcitx input method module for ${1}."
+msgstr "Nie udało się znaleźć metody wprowadzenia Fcitx dla ${1}."
+
+#: data/script/fcitx-diagnose.sh:1250
+msgid "Gtk ${1} immodule file ${2} does not exist."
+msgstr "GTK ${1} plik modułu MW ${2} nie istnieje."
+
+#: data/script/fcitx-diagnose.sh:1256
+msgid "All found Gtk ${1} immodule files exist."
+msgstr "Wszystkie znalezione GTK ${1} pliki modułowe MW istnieją."
+
+#: data/script/fcitx-diagnose.sh:1289
+msgid "Found ${3} for gtk ${1} at ${2}."
+msgstr "Znaleziono ${3} dla GTK ${1} w ${2}."
+
+#: data/script/fcitx-diagnose.sh:1294 data/script/fcitx-diagnose.sh:1377
+msgid "Version Line:"
+msgstr "Linia Wersji:"
+
+#: data/script/fcitx-diagnose.sh:1297
+msgid "Found ${2} for unknown gtk version at ${1}."
+msgstr "Znaleziono ${2} dla nieznanej wersji GTK w ${1}."
+
+#: data/script/fcitx-diagnose.sh:1305 data/script/fcitx-diagnose.sh:1388
+msgid "Found fcitx im modules for gtk ${1}."
+msgstr "Znaleziono moduły fcitx mw dla gtk ${1}."
+
+#: data/script/fcitx-diagnose.sh:1311
+msgid "Failed to find fcitx in the output of ${1}"
+msgstr "Nie udało się znaleźć Fcitx we wyjściu z ${1}"
+
+#: data/script/fcitx-diagnose.sh:1317
+msgid "Cannot find ${2} for gtk ${1}"
+msgstr "Nie udało się znaleźć ${2} dla GTK ${1}"
+
+#: data/script/fcitx-diagnose.sh:1323
+msgid "Cannot find fcitx im module for gtk ${1}."
+msgstr "Nie udało się znaleźć modułów Fcitx MW dla GTK ${1}."
+
+#: data/script/fcitx-diagnose.sh:1373
+msgid "Found immodules cache for gtk ${1} at ${2}."
+msgstr "Znaleziono cache modułów MW dla GTK ${1} w ${2}."
+
+#: data/script/fcitx-diagnose.sh:1381
+msgid "Found immodule cache for unknown gtk version at ${1}."
+msgstr "Znaleziono cache modułu MW dla nieznanej wersji GTK w ${1}."
+
+#: data/script/fcitx-diagnose.sh:1394
+msgid "Failed to find fcitx in immodule cache at ${1}"
+msgstr "Nie udało się znaleźć cache modułu MW Fcitx w ${1}"
+
+#: data/script/fcitx-diagnose.sh:1400
+msgid "Cannot find immodules cache for gtk ${1}"
+msgstr "Nie udało się znaleźć cache modułów MW dla GTK ${1}"
+
+#: data/script/fcitx-diagnose.sh:1405
+msgid "Cannot find fcitx im module for gtk ${1} in cache."
+msgstr "Nie udało się znaleźć modułów MW Fcitx dla GTK ${1} w cache."
+
+#: data/script/fcitx-diagnose.sh:1418
+msgid "Gtk IM module cache:"
+msgstr "GTK moduły MW cache:"
+
+#: data/script/fcitx-diagnose.sh:1423
+msgid "Gtk IM module files:"
+msgstr "GTK pliki modułowe MW:"
+
+#: data/script/fcitx-diagnose.sh:1437
+msgid "Fcitx Addons:"
+msgstr "Wtyczki Fcitx:"
+
+#: data/script/fcitx-diagnose.sh:1438
+msgid "Addon Config Dir:"
+msgstr "Ścieżka pliku konfiguracyjnego wtyczek:"
+
+#: data/script/fcitx-diagnose.sh:1440
+msgid "Cannot find fcitx addon config directory."
+msgstr "Nie udało się znaleźć pliku konfiguracyjnego wtyczki Fcitx."
+
+#: data/script/fcitx-diagnose.sh:1450
+msgid "Found fcitx addon config directory: ${1}."
+msgstr "Znaleziono ścieżkę pliku konfiguracyjnego wtyczki Fcitx: ${1}."
+
+#: data/script/fcitx-diagnose.sh:1452
+msgid "Addon List:"
+msgstr "Lista Wtyczek:"
+
+#: data/script/fcitx-diagnose.sh:1456
+msgid "Invalid addon config file ${1}."
+msgstr "Nieprawidłowy plik konfiguracyjny wtyczki ${1}."
+
+#: data/script/fcitx-diagnose.sh:1480
+msgid "Found ${1} enabled addons:"
+msgstr "Znaleziono ${1} włączonych wtyczek:"
+
+#: data/script/fcitx-diagnose.sh:1485
+msgid "Found ${1} disabled addons:"
+msgstr "Znaleziono ${1} wyłączonych wtyczek:"
+
+#: data/script/fcitx-diagnose.sh:1491
+msgid "Addon Libraries:"
+msgstr "Bibliotek Wtyczek:"
+
+#: data/script/fcitx-diagnose.sh:1499
+msgid "Cannot find file ${1} of addon ${2}."
+msgstr "Nie udało się znaleźć pliku ${1} wtyczki ${2}."
+
+#: data/script/fcitx-diagnose.sh:1509
+msgid "Cannot find following required libraries for ${1} of addon ${2}."
+msgstr ""
+"Nie udało się znaleźć następujących wymaganych bibliotek dla ${1} wtyczki "
+"${2}."
+
+#: data/script/fcitx-diagnose.sh:1517
+msgid "All libraries for all addons are found."
+msgstr "Wszystkie biblioteki dla wszystkich wtyczek zostały znalezione"
+
+#: data/script/fcitx-diagnose.sh:1518
+msgid "User Interface:"
+msgstr "Interfejs Użytkownika: "
+
+#: data/script/fcitx-diagnose.sh:1520
+msgid "Cannot find enabled fcitx user interface!"
+msgstr "Nie udało się znaleźć włączonego interfejsu użytkownika Fcitx! "
+
+#: data/script/fcitx-diagnose.sh:1522
+msgid "Found ${1} enabled user interface addons:"
+msgstr "Znaleziono ${1} włączonych wtyczek interfejsu użytkownika:"
+
+#: data/script/fcitx-diagnose.sh:1531
+msgid "Kimpanel process:"
+msgstr "Proces kimpanel:"
+
+#: data/script/fcitx-diagnose.sh:1539
+msgid ""
+"Cannot find kimpanel dbus interface or enabled non-kimpanel user interface."
+msgstr ""
+"Nie udało się znaleźć interfejsu kimpanel DBus lub włączonego interfejsu "
+"użytkownika non-kimpanel."
+
+#: data/script/fcitx-diagnose.sh:1545
+msgid "Input Methods:"
+msgstr "Metody Wprowadzania:"
+
+#: data/script/fcitx-diagnose.sh:1549
+msgid "Cannot read im list from fcitx profile."
+msgstr "Nie udało się wczytać listy MW z profilu Fcitx."
+
+#: data/script/fcitx-diagnose.sh:1559
+msgid "Invalid item ${1} in im list."
+msgstr "Nieprawidłowy przedmiot ${1} na liście MW."
+
+#: data/script/fcitx-diagnose.sh:1570
+msgid "Found ${1} enabled input methods:"
+msgstr "Znaleziono ${1} włączonych metod wprowadzania:"
+
+#: data/script/fcitx-diagnose.sh:1575
+msgid "Default input methods:"
+msgstr "Domyślne metody wprowadzania:"
+
+#: data/script/fcitx-diagnose.sh:1578
+msgid "You don't have any input methods enabled."
+msgstr "Żadne metody wprowadzania nie są włączone. "
+
+#: data/script/fcitx-diagnose.sh:1582
+msgid ""
+"You only have one keyboard input method enabled. You may want to add another"
+" input method to input other languages."
+msgstr ""
+"Włączona jest tylko jedna metoda wprowadzania. Możesz dodać kolejną, aby "
+"korzystać z innych języków."
+
+#: data/script/fcitx-diagnose.sh:1584
+msgid ""
+"You only have one input method enabled, please add a keyboard input method "
+"as the first one and your main input method as the second one."
+msgstr ""
+"Włączona jest tylko jedna metoda wprowadzania. Dodaj metodę wprowadzania "
+"przy użyciu klawiaturą jako pierwszą, a główną metodę wprowadzania jako "
+"drugą."
+
+#: data/script/fcitx-diagnose.sh:1590
+msgid ""
+"You have a keyboard input method \"${1}\" correctly added as your default "
+"input method."
+msgstr "Metoda wprowadzania \"${1}\" została pomyślnie dodana jako domyślna."
+
+#: data/script/fcitx-diagnose.sh:1594
+msgid ""
+"Your first (default) input method is ${1} instead of a keyboard input "
+"method. You may have trouble deactivate fcitx."
+msgstr ""
+"Domyślną metodą wprowadzania jest ${1}, zamiast metody wprowadzania przy "
+"użyciu klawiatury. Możesz napotkać problemy podczas wyłączania Fcitx."
+
+#: data/script/fcitx-diagnose.sh:1676
+msgid "Frontends setup:"
+msgstr "Ustawienia Front-end: "
+
+#: data/script/fcitx-diagnose.sh:1683
+msgid "Configuration:"
+msgstr "Konfiguracja:"
+
+#: data/script/fcitx-diagnose.sh:1689
+msgid "Log:"
+msgstr "Dziennik zdarzeń:"
+
+#: src/frontend/xim/xim.c:134
+msgid "X11 not initialized"
+msgstr "X11 niezainicjowane"
+
+#: src/frontend/xim/xim.c:146
+msgid "Can't Create imWindow"
+msgstr "Nie udało się utworzyć imWindow"
+
+#: src/frontend/xim/xim.c:157
+msgid "XMODIFIERS Error."
+msgstr "XMODIFIERS Error."
+
+#: src/frontend/xim/xim.c:161
+msgid "Please set XMODIFIERS."
+msgstr "Proszę ustaw XMODIFIERS."
+
+#: src/frontend/xim/xim.c:239
+#, c-format
+msgid "Start XIM error. Another XIM daemon named %s is running?"
+msgstr ""
+"Nastąpił błąd podczas włączania XIM. Czy inna instancja(deamon) XIM nazwana "
+"%s jest włączona? "
+
+#: src/im/keyboard/keyboard.c:359 src/im/keyboard/keyboard.c:376
+#: src/im/keyboard/keyboard.c:424 src/im/keyboard/keyboard.c:437
+#: src/im/keyboard/keyboard.c:462 src/im/keyboard/keyboard.c:468
+#: src/im/keyboard/fcitx-keyboard.desc:1 src/im/keyboard/fcitx-keyboard.desc:6
+#: src/im/keyboard/fcitx-keyboard.desc:16
+#: src/im/keyboard/fcitx-keyboard.desc:21
+#: src/im/keyboard/fcitx-keyboard.desc:27
+#: src/im/keyboard/fcitx-keyboard.desc:36
+#: src/im/keyboard/fcitx-keyboard.desc:41
+msgid "Keyboard"
+msgstr "Klawiatura"
+
+#: src/im/keyboard/keyboard.c:426 src/im/keyboard/keyboard.c:443
+msgid "(Unavailable)"
+msgstr "(Niedostępne)"
+
+#: src/im/keyboard/keyboard.c:900
+msgid "Spell hint"
+msgstr "Podpowiedzi pisowni"
+
+#: src/im/keyboard/keyboard.c:901
+msgid "Spell hint is enabled."
+msgstr "Podpowiedzi pisowni są włączone."
+
+#: src/im/keyboard/keyboard.c:902
+msgid "Spell hint is disabled."
+msgstr "Podpowiedzi pisowni są wyłączone."
+
+#: src/im/pinyin/py.c:106 src/im/pinyin/fcitx-pinyin.conf.in:3
+#: src/im/pinyin/pinyin.conf.in:3 src/im/pinyin/fcitx-pinyin.desc:1
+#: src/im/pinyin/fcitx-pinyin.desc:15 src/im/pinyin/fcitx-pinyin.desc:20
+#: src/im/pinyin/fcitx-pinyin.desc:25 src/im/pinyin/fcitx-pinyin.desc:30
+#: src/im/pinyin/fcitx-pinyin.desc:35 src/im/pinyin/fcitx-pinyin.desc:40
+#: src/im/pinyin/fcitx-pinyin.desc:45 src/im/pinyin/fcitx-pinyin.desc:50
+#: src/im/pinyin/fcitx-pinyin.desc:55 src/im/pinyin/fcitx-pinyin.desc:64
+#: src/im/pinyin/fcitx-pinyin.desc:73 src/im/pinyin/fcitx-pinyin.desc:82
+#: src/im/pinyin/fcitx-pinyin.desc:87 src/im/pinyin/fcitx-pinyin.desc:92
+#: src/im/pinyin/fcitx-pinyin.desc:97 src/im/pinyin/fcitx-pinyin.desc:102
+#: src/im/pinyin/fcitx-pinyin.desc:107 src/im/pinyin/fcitx-pinyin.desc:112
+#: src/im/pinyin/fcitx-pinyin.desc:117 src/im/pinyin/fcitx-pinyin.desc:122
+#: src/im/pinyin/fcitx-pinyin.desc:127 src/im/pinyin/fcitx-pinyin.desc:132
+#: src/im/pinyin/fcitx-pinyin.desc:137 src/im/pinyin/fcitx-pinyin.desc:142
+msgid "Pinyin"
+msgstr "Pinyin"
+
+#: src/im/pinyin/py.c:121 src/im/pinyin/shuangpin.conf.in:3
+msgid "Shuangpin"
+msgstr "Shuangpin"
+
+#: src/im/pinyin/py.c:393
+msgid "Cannot find System Database of Pinyin!"
+msgstr "Nie udało się znaleźć bazy danych systemu Pinyin!"
+
+#: src/im/pinyin/py.c:457
+msgid "Pinyin Index Magic Number Doesn't match"
+msgstr "Magiczny Number Indeksu Pinyin nie jest zgodny"
+
+#: src/im/pinyin/py.c:729
+msgid "Press index to delete user phrase (ESC for cancel)"
+msgstr "Kliknij indeks, aby usunąć frazę użytkownika (ESC, żeby anulować)"
+
+#: src/im/pinyin/py.c:743
+msgid "Press number to make word in frequent list"
+msgstr "Naciśnij cyfrę, aby umieścić słowo na liście często używanych"
+
+#: src/im/pinyin/py.c:769
+#, c-format
+msgid "Press 1 to delete %s in frequent list (ESC for cancel)"
+msgstr ""
+"Kliknij 1, aby usunąć %s z listy często używanych (ESC, żeby anulować)"
+
+#: src/im/pinyin/py.c:771
+#, c-format
+msgid "Press 1-%d to delete %s in frequent list (ESC for cancel)"
+msgstr ""
+"Kliknij 1-%d, aby usunąć %s z listy często używanych (ESC, żeby anulować)"
+
+#: src/im/pinyin/py.c:1672
+#, c-format
+msgid "Cannot Save User Pinyin Database: %s"
+msgstr "Nie udało się zapisać Bazy Danych Pinyin użytkownika: %s"
+
+#: src/im/pinyin/py.c:1735
+#, c-format
+msgid "Cannot Save Frequent word: %s"
+msgstr "Nie udało się zapisać często używanego słowa: %s"
+
+#: src/im/pinyin/py.c:1798
+#, c-format
+msgid "Cannot Save Pinyin Index: %s"
+msgstr "Nie udało się zapisać Indeksu Pinyin: %s"
+
+#: src/im/pinyin/py.c:2059
+msgid "Remind: "
+msgstr "Przypomnij:"
+
+#: src/im/pinyin/py.c:2141
+msgid "Migrate the old file path to the new one"
+msgstr "Migruj starą ścieżkę pliku do nowej"
+
+#: src/im/qw/qw.c:64 src/im/qw/fcitx-qw.conf.in:3 src/im/qw/qw.conf.in:3
+msgid "Quwei"
+msgstr "Quwei"
+
+#: src/im/table/table.c:596
+msgid ""
+"Left/Right to choose selected character, Press Enter to confirm, Press "
+"Escape to Cancel"
+msgstr ""
+"Lewo/Prawo, aby wybrać zaznaczony znak, Naciśnij Enter, żeby potwierdzić, "
+"Kliknij Escape, aby anulować"
+
+#: src/im/table/table.c:621
+msgid "Pinyin: "
+msgstr "Pinyin:"
+
+#: src/im/table/table.c:645
+msgid "Cannot found Pinyin"
+msgstr "Nie udało się znaleźć Pinyin"
+
+#: src/im/table/table.c:705
+msgid "Choose the phrase to be put in the front, Press Escape to Cancel"
+msgstr ""
+"Wybierz frazę, która będzie widnieć z przodu. Kliknij Escape, aby anulować. "
+
+#: src/im/table/table.c:713
+msgid "Choose the phrase to be deleted, Press Escape to Cancel"
+msgstr ""
+"Wybierz frazę, która zostanie usunięta. Kliknij Escape, aby anulować. "
+
+#: src/im/table/table.c:721
+msgid "Choose the phrase to clear typing history, Press Escape to Cancel"
+msgstr ""
+"Wybierz frazę, która będzie czyścić historię. Kliknij Escape, aby anulować. "
+
+#: src/im/table/table.c:1287
+msgid "Remind:"
+msgstr "Przypomnij:"
+
+#: src/im/table/table.c:1395
+msgid "Phrase is already in Dict "
+msgstr "Fraza znajduje się już w słowniku"
+
+#: src/im/table/table.c:1399
+msgid "Code is "
+msgstr "Kod to"
+
+#: src/im/table/table.c:1403
+msgid " Ctrl+Delete To Delete"
+msgstr "Ctrl+Delete, aby usunąć"
+
+#: src/im/table/tabledict.c:41
+msgid "Loading Table Dict"
+msgstr "Ładowanie tabeli słownika"
+
+#: src/im/table/tabledict.c:248
+msgid "Load Table Dict OK"
+msgstr "Ładowanie tabeli słownika OK"
+
+#: src/im/table/tabledict.c:285
+msgid "Loading Autophrase."
+msgstr "Ładowanie AutoFrazy."
+
+#: src/im/table/tabledict.c:341
+msgid "Load Autophrase OK"
+msgstr "Ładowanie AutoFrazy OK"
+
+#: src/im/table/tabledict.c:372
+msgid "Save dict error"
+msgstr "Zapisz error słownika"
+
+#: src/im/table/tabledict.c:466
+msgid "Rename OK"
+msgstr "Zmiana nazwy OK"
+
+#: src/lib/fcitx/addon.c:138
+#, c-format
+msgid "Addon Config %s is %s"
+msgstr "Konfiguracja Wtyczki %s to %s"
+
+#: src/lib/fcitx/addon.c:151
+#, c-format
+msgid "Load Addon Config File:%s"
+msgstr "Ładowanie pliku konfiguracyjnego wtyczek: %s"
+
+#: src/lib/fcitx/addon.c:298
+#, c-format
+msgid "Disable addon %s, dependency %s cannot be satisfied."
+msgstr "Wtyczka %s wyłączona, zależność %s nie mogła zostać zainstalowana. "
+
+#: src/lib/fcitx-config/fcitx-config.c:376
+msgid "Enum option duplicated."
+msgstr "Opcja Enum zduplikowana."
+
+#: src/lib/fcitx-config/fcitx-config.c:386
+msgid "Enum option number must larger than 0"
+msgstr "Opcja Enum musi być większa niż 0"
+
+#: src/lib/fcitx-config/fcitx-config.c:400
+msgid "Enum Option is invalid, take it as string"
+msgstr "Opcja Enum jest nieprawidłowa, przyjmowanie go jako napis"
+
+#: src/lib/fcitx-config/fcitx-config.c:406
+#, c-format
+msgid "Unknown type, take it as string: %s"
+msgstr "Nieznany rodzaj, przyjmowanie go jako napis: %s"
+
+#: src/lib/fcitx-config/fcitx-config.c:410
+msgid "Missing type, take it as string"
+msgstr "Brak rodzaju, przyjmowanie go jako napis"
+
+#: src/lib/fcitx-config/fcitx-config.c:894
+#, c-format
+msgid "Configure group name error: line %d"
+msgstr "Ustaw nazwę grupy error: linia %d"
+
+#: src/lib/fcitx-config/fcitx-config.c:901
+#, c-format
+msgid "Duplicate group name, merge with the previous: %s :line %d"
+msgstr "Zduplikowana nazwa grupy, połącz z poprzednimi: %s : linia %d"
+
+#: src/lib/fcitx-config/fcitx-config.c:922
+#, c-format
+msgid "Invalid Entry: line %d missing '='"
+msgstr "Nieprawidłowy Wpis: linia %d brakujący '='"
+
+#: src/lib/fcitx-config/fcitx-config.c:968
+#, c-format
+msgid "Duplicate option, overwrite: line %d"
+msgstr "Zduplikowana opcja, nadpisz: linia %d"
+
+#: src/lib/fcitx-config/fcitx-config.c:1136
+#, c-format
+msgid "Option %s is Invalid, Use Default Value %s"
+msgstr "Opcja %s jest nieprawidłowa, użyj wartości domyślnej %s"
+
+#: src/lib/fcitx-config/fcitx-config.c:1144
+#, c-format
+msgid "Option %s is Invalid."
+msgstr "Opcja %s jest niepoprawna "
+
+#: src/lib/fcitx-config/fcitx-config.c:1180
+#: src/lib/fcitx-config/fcitx-config.c:1187
+msgid "Available Value:"
+msgstr "Dostępna Wartość:"
+
+#: src/lib/fcitx-config/fcitx-config.c:1200
+#, c-format
+msgid "no default option for %s/%s"
+msgstr "brak domyślnej opcji dla %s/%s"
+
+#: src/lib/fcitx/frontend.c:530
+#, c-format
+msgid "Frontend: open %s fail %s"
+msgstr "Front-end: otwórz %s niepowodzenie %s"
+
+#: src/lib/fcitx/frontend.c:542
+msgid "Frontend: bad frontend"
+msgstr "Front-end: zły front-end"
+
+#: src/lib/fcitx/frontend.c:565
+msgid "No available frontend"
+msgstr "Brak dostępnych front-endów"
+
+#: src/lib/fcitx/ime.c:303
+#, c-format
+msgid "IM: open %s fail %s"
+msgstr "MW: otwórz %s błąd %s"
+
+#: src/lib/fcitx/ime.c:322
+#, c-format
+msgid "IM: bad im %s"
+msgstr "MW: zła mw %s"
+
+#: src/lib/fcitx/ime.c:536
+msgid "No available Input Method"
+msgstr "Brak dostępnych Metod Wprowadzania"
+
+#: src/lib/fcitx/ime.c:1719 src/module/notificationitem/notificationitem.c:410
+#: data/fcitx-autostart.desktop.in:3 data/fcitx.desktop.in:3
+msgid "Input Method"
+msgstr "Metoda Wprowadzania"
+
+#: src/lib/fcitx/ime.c:1821
+msgid "Input Speed: "
+msgstr "Prędkość Wprowadzania: "
+
+#: src/lib/fcitx/ime.c:1824
+msgid "/min  Time Used: "
+msgstr "/min Czasu upłynęło: "
+
+#: src/lib/fcitx/ime.c:1827
+msgid "min Num of Characters: "
+msgstr "minimalna ilość znaków: "
+
+#: src/lib/fcitx/instance.c:286 src/lib/fcitx/instance.c:555
+msgid "Use remind"
+msgstr "Użyj przypominania"
+
+#: src/lib/fcitx/instance.c:286 src/lib/fcitx/instance.c:555
+msgid "No remind"
+msgstr "Nie przypominaj"
+
+#: src/lib/fcitx/instance.c:287 src/lib/fcitx/instance.c:556
+msgid "Toggle Remind"
+msgstr "Przełącz przypominanie"
+
+#: src/lib/fcitx/instance.c:531
+msgid "pthread mutex init failed"
+msgstr "pthread mutex init błąd"
+
+#: src/lib/fcitx/module.c:61
+#, c-format
+msgid "Module: open %s fail %s"
+msgstr "Moduł: otwórz %s błąd %s"
+
+#: src/lib/fcitx/module.c:73
+msgid "Module: bad module"
+msgstr "Moduł: uszkodzony moduł"
+
+#: src/lib/fcitx-qt/fcitxqtkeysequencewidget.cpp:161
+msgid "Clear"
+msgstr "Wyczyść"
+
+#: src/lib/fcitx-qt/fcitxqtkeysequencewidget.cpp:314
+msgid "Left"
+msgstr "Do lewej"
+
+#: src/lib/fcitx-qt/fcitxqtkeysequencewidget.cpp:316
+msgid "Right"
+msgstr "Do prawej"
+
+#: src/lib/fcitx-qt/fcitxqtkeysequencewidget.cpp:358
+msgid "Empty"
+msgstr "Pusty"
+
+#: src/lib/fcitx-qt/fcitxqtkeysequencewidget.cpp:401
+msgid "The key you just pressed is not supported by Qt."
+msgstr "Przycisk, który właśnie wcisnąłeś nie jest wspierany przez Qt."
+
+#: src/lib/fcitx-qt/fcitxqtkeysequencewidget.cpp:402
+msgid "Unsupported Key"
+msgstr "Nieobsługiwany Klawisz"
+
+#: src/lib/fcitx/ui.c:192
+#, c-format
+msgid "UI: open %s fail %s"
+msgstr "UI: otwórz %s błąd %s"
+
+#: src/lib/fcitx/ui.c:205
+msgid "UI: bad ui"
+msgstr "UI: uszkodzone ui"
+
+#: src/lib/fcitx-utils/desktop-parse.c:551
+#, c-format
+msgid "Invalid group name line @ line %d %s"
+msgstr "Nieprawidłowa nazwa grupy linia @ linia %d %s"
+
+#: src/lib/fcitx-utils/desktop-parse.c:563
+#, c-format
+msgid ""
+"Duplicate group %s in a desktop file,@ line %d, merge with previous one."
+msgstr ""
+"Zduplikowana grupa %s w pliku desktop, @ linia %d połącz z poprzednią."
+
+#: src/lib/fcitx-utils/desktop-parse.c:587
+#, c-format
+msgid "Non-comment doesn't belongs to any group @ %d %s"
+msgstr "Bez-komentarza nie należy do żadnej grupy @ %d %s"
+
+#: src/lib/fcitx-utils/desktop-parse.c:593
+#, c-format
+msgid "Invalid entry line @ line %d %s"
+msgstr "Nieprawidłowy wpis linia @ linia %d %s"
+
+#: src/lib/fcitx-utils/desktop-parse.c:603
+#, c-format
+msgid "Duplicate entry %s in group %s,@ line %d, override previous one."
+msgstr "Zduplikowany wpis %s w grupie %s, @ linia %d, nadpisz poprzednie."
+
+#: src/module/autoeng/AutoEng.c:557
+msgid "Too long item for AutoEng"
+msgstr "Zbyt długi element dla AutoEng"
+
+#: src/module/autoeng/AutoEng.c:686 src/module/quickphrase/quickphrase.c:456
+msgid "Press Enter to input text"
+msgstr "Kliknij Enter, aby wprowadzić tekst"
+
+#: src/module/chttrans/chttrans.c:151 src/module/chttrans/chttrans.c:197
+#: src/module/chttrans/chttrans.c:244
+msgid "Switch to Simplified Chinese"
+msgstr "Przełącz na Chiński Uproszczony"
+
+#: src/module/chttrans/chttrans.c:152 src/module/chttrans/chttrans.c:198
+#: src/module/chttrans/chttrans.c:245
+msgid "Switch to Traditional Chinese"
+msgstr "Przełącz na Chiński Tradycyjny"
+
+#: src/module/chttrans/chttrans.c:153 src/module/chttrans/chttrans.c:199
+#: src/module/chttrans/chttrans.c:246
+msgid "Toggle Simp/Trad Chinese Conversion"
+msgstr "Przełącz Upro/Trad Chińską konwersje "
+
+#: src/module/chttrans/chttrans.c:177
+#: src/module/chttrans/fcitx-chttrans.conf.in:3
+msgid "Simplified Chinese To Traditional Chinese"
+msgstr "Uproszczony Chiński na Tradycyjny Chiński"
+
+#: src/module/chttrans/chttrans.c:178
+msgid "Traditional Chinese is enabled."
+msgstr "Tradycyjny Chiński jest włączony."
+
+#: src/module/chttrans/chttrans.c:179
+msgid "Simplified Chinese is enabled."
+msgstr "Uproszczony Chiński jest włączony."
+
+#: src/module/clipboard/clipboard.c:372
+msgid "Select to paste"
+msgstr "Wybierz do wklejenia"
+
+#: src/module/freedesktop-notify/freedesktop-notify.c:620
+msgid "Do not show again"
+msgstr "Nie pokazuj ponownie"
+
+#: src/module/fullwidthchar/fullwidthchar.c:114
+#: src/module/fullwidthchar/fullwidthchar.c:191
+msgid "Full width Character"
+msgstr "Znak o pełnej szerokości"
+
+#: src/module/fullwidthchar/fullwidthchar.c:114
+#: src/module/fullwidthchar/fullwidthchar.c:191
+msgid "Half width Character"
+msgstr "Znak z połową szerokości"
+
+#: src/module/fullwidthchar/fullwidthchar.c:115
+#: src/module/fullwidthchar/fullwidthchar.c:192
+msgid "Toggle Half/Full width Character"
+msgstr "Przełącz znaki Połowa/Pełnej szerokości"
+
+#: src/module/imselector/imselector.c:305
+msgid "Select global input method: "
+msgstr "Wybierz globalną metodę wprowadzania: "
+
+#: src/module/imselector/imselector.c:306
+msgid "Select local input method: "
+msgstr "Wybierz lokalną metodę wprowadzania: "
+
+#: src/module/imselector/imselector.c:312
+msgid "Current local input method is "
+msgstr "Aktualna lokalna metoda wprowadzania to "
+
+#: src/module/imselector/imselector.c:316
+msgid "No local input method"
+msgstr "Brak lokalnej metody wprowadzania"
+
+#: src/module/imselector/imselector.c:326
+msgid "Clear local input method"
+msgstr "Wyczyść lokalne metody wprowadzania"
+
+#: src/module/notificationitem/dbusmenu.c:465 src/ui/classic/classicui.c:464
+msgid "Online Help"
+msgstr "Pomoc Online"
+
+#: src/ui/classic/classicui.c:525
+msgid "Configure"
+msgstr "Skonfiguruj"
+
+#: src/module/notificationitem/dbusmenu.c:484 src/ui/classic/classicui.c:526
+#: src/ui/kimpanel/kimpanel.c:796
+msgid "Restart"
+msgstr "Restartuj"
+
+#: src/module/notificationitem/dbusmenu.c:492 src/ui/classic/classicui.c:527
+msgid "Exit"
+msgstr "Wyjdź"
+
+#: src/module/notificationitem/notificationitem.c:454
+#: src/ui/kimpanel/kimpanel.c:256 src/ui/kimpanel/kimpanel.c:257
+msgid "No input window"
+msgstr "Brak okna do wprowadzania"
+
+#: src/module/notificationitem/notificationitem.c:460
+#: src/ui/kimpanel/kimpanel.c:282 src/ui/kimpanel/kimpanel.c:287
+#: data/config.desc:34
+msgid "Disabled"
+msgstr "Wyłączone"
+
+#: src/module/notificationitem/notificationitem.c:461
+#: src/ui/kimpanel/kimpanel.c:283 src/ui/kimpanel/kimpanel.c:288
+msgid "Input Method Disabled"
+msgstr "Metody Wprowadzania Wyłączone"
+
+#: src/module/punc/punc.c:148 src/module/punc/punc.c:567
+msgid "Full width punct"
+msgstr "Interpunkcja o pełnej szerokości"
+
+#: src/module/punc/punc.c:149 src/module/punc/punc.c:568
+msgid "Latin punct"
+msgstr "Łacińska interpunkcja"
+
+#: data/config.desc:114 src/module/punc/punc.c:150 src/module/punc/punc.c:569
+msgid "Switch Fullwidth Punctuation"
+msgstr "Przełącz interpunkcje o pełnej szerokości"
+
+#: src/module/punc/punc.c:410
+msgid "Can't open punc file."
+msgstr "Nie można otworzyć pliku interpunkcji."
+
+#: src/module/punc/punc.c:585 src/module/punc/fcitx-punc.conf.in:3
+msgid "Punctuation Support"
+msgstr "Wsparcie Interpunkcji"
+
+#: src/module/punc/punc.c:586
+msgid "Full width punctuations are used."
+msgstr "Interpunkcje o pełnej szerokości są w użyciu."
+
+#: src/module/punc/punc.c:587
+msgid "Latin punctuations are used."
+msgstr "Interpunkcje Łacińskie są w użyciu."
+
+#: src/module/quickphrase/quickphrase.c:247
+#, c-format
+msgid "Space for %s Enter for %s"
+msgstr "Spacja dla %s Enter dla %s"
+
+#: src/module/quickphrase/quickphrase.c:378
+msgid "Quick Phrase: "
+msgstr "Szybka Fraza: "
+
+#: src/module/remote/remote.c:70
+#, c-format
+msgid "Can't open socket %s: %s"
+msgstr "Nie można otworzyć gniazda %s: %s"
+
+#: src/module/unicode/charselectdata.c:245
+msgid "<Non Private Use High Surrogate>"
+msgstr "<Non Private Use High Surrogate>"
+
+#: src/module/unicode/charselectdata.c:247
+msgid "<Private Use High Surrogate>"
+msgstr "<Private Use High Surrogate>"
+
+#: src/module/unicode/charselectdata.c:249
+msgid "<Low Surrogate>"
+msgstr "<Low Surrogate>"
+
+#: src/module/unicode/charselectdata.c:251
+msgid "<Private Use>"
+msgstr "<Private Use>"
+
+#: src/module/unicode/charselectdata.c:279
+msgid "<not assigned>"
+msgstr "<not assigned>"
+
+#: src/module/unicode/unicode.c:272
+msgid "Search unicode"
+msgstr "Przeglądaj unicode"
+
+#: src/module/vk/vk.c:51
+msgid "Latin"
+msgstr "Łacina"
+
+#: src/module/vk/vk.c:52
+msgid "Fullwidth"
+msgstr "Pełna szerokość"
+
+#: src/module/vk/vk.c:53
+msgid "Greek"
+msgstr "Grecki"
+
+#: src/module/vk/vk.c:54
+msgid "Russian"
+msgstr "Rosyjski"
+
+#: src/module/vk/vk.c:55
+msgid "Index"
+msgstr "Indeks"
+
+#: src/module/vk/vk.c:56
+msgid "Math"
+msgstr "Matematyka"
+
+#: src/module/vk/vk.c:57
+msgid "Number"
+msgstr "Numer"
+
+#: src/module/vk/vk.c:58
+msgid "Special"
+msgstr "Specjalny"
+
+#: src/module/vk/vk.c:59
+msgid "Hiragana"
+msgstr "Hiragana"
+
+#: src/module/vk/vk.c:60
+msgid "Katakana"
+msgstr "Katakana"
+
+#: src/module/vk/vk.c:61
+msgid "Table Symbol"
+msgstr "Tabela Symboli"
+
+#: src/module/vk/vk.c:154
+msgid "Toggle Virtual Keyboard"
+msgstr "Włącz Klawiaturę Wirtualną"
+
+#: src/module/vk/vk.c:154
+msgid "Virtual Keyboard State"
+msgstr "Stan Klawiatury Wirtualnej"
+
+#: src/module/vk/vk.c:179
+msgid "Virtual Keyboard"
+msgstr "Klawiatura Wirtualna"
+
+#: src/module/vk/vk.c:212
+msgid "Close virtual keyboard"
+msgstr "Zamknij Klawiaturę Wirtualną"
+
+#: src/module/xkbdbus/xkbdbus.c:258
+msgid "English (US)"
+msgstr "Angielski (Stany Zjednoczone)"
+
+#: src/ui/cairostuff/font.c:46
+msgid "Error: Load fontconfig failed"
+msgstr "Error: Nie udało się załadować fontconfig"
+
+#: src/ui/cairostuff/font.c:119
+#, c-format
+msgid "your current font is: %s"
+msgstr "twoja aktualna czcionka to: %s"
+
+#: src/ui/cairostuff/font.c:121
+msgid "no valid font."
+msgstr "nie odnaleziono prawidłowych czcionek."
+
+#: src/ui/classic/fcitx-skin-installer.sh:50
+msgid "Error: skin file should only contain one directory."
+msgstr "Error: plik skórki powinien zawierać tylko jeden katalog"
+
+#: src/ui/classic/fcitx-skin-installer.sh:55
+msgid "Error: skin file doesn't contain skin config."
+msgstr "Error: plik skórki nie zawiera pliku konfiguracyjnego "
+
+#: src/ui/classic/fcitx-skin-installer.sh:64
+#, sh-format
+msgid ""
+"Error: $HOME or $XDG_CONFIG_HOME is not set, cannot determine the install "
+"path"
+msgstr ""
+"Error: $HOME lub $XDG_CONFIG_HOME nie zostało ustawione, nie można określić "
+"ścieżki instalacyjnej"
+
+#: src/ui/classic/fcitx-skin-installer.sh:74
+msgid "Successfully Installed skin"
+msgstr "Skórka zainstalowana pomyślnie"
+
+#: src/ui/classic/fcitx-skin-installer.sh:76
+msgid "Error: skin failed to install"
+msgstr "Error: nie udało się zainstalować skórki"
+
+#: src/ui/classic/skin.c:125
+msgid "Cannot load default skin, is installation correct?"
+msgstr ""
+"Nie udało się załadować domyślnej skórki, czy instalacja przebiegła "
+"prawidłowo? "
+
+#: src/ui/classic/skin.c:130
+#, c-format
+msgid "Cannot load skin %s, return to default"
+msgstr "Nie udało się załadować skórki %s, powrót do domyślnej"
+
+#: src/ui/classic/skin.c:708 src/ui/classic/fcitx-classic-ui.conf.in:10
+msgid "Skin"
+msgstr "Skórka"
+
+#: src/ui/classic/tray.c:160
+#, c-format
+msgid "X error %i on opcode send"
+msgstr "X error %i podczas wysyłania kodu operacji"
+
+#: src/ui/kimpanel/kimpanel.c:398 data/fcitx-autostart.desktop.in:2
+#: data/fcitx.desktop.in:2
+msgid "Fcitx"
+msgstr "Fcitx"
+
+#: src/ui/kimpanel/kimpanel.c:782
+msgid "Toggle Input Method"
+msgstr "Przełącz Metodę Wprowadzania"
+
+#: tools/gui/wrapper/mainwindow.cpp:40
+msgid "&Save"
+msgstr "$Zapisz"
+
+#: tools/gui/wrapper/mainwindow.cpp:41
+msgid "&Reset"
+msgstr "&Resetuj"
+
+#: tools/gui/wrapper/mainwindow.cpp:42
+msgid "&Close"
+msgstr "&Zamknij"
+
+#: data/fcitx-autostart.desktop.in:4 data/fcitx.desktop.in:4
+msgid "Start Input Method"
+msgstr "Zacznij Metodę Wprowadzania"
+
+#: data/fcitx-configtool.desktop.in:2
+msgid "Fcitx Configuration"
+msgstr "Konfiguracja Fcitx"
+
+#: data/fcitx-configtool.desktop.in:3
+#: src/module/notificationitem/dbusmenu.c:475
+#: src/module/notificationitem/dbusmenu.c:475
+msgid "Input Method Configuration"
+msgstr "Konfiguracja Metody Wprowadzania"
+
+#: data/fcitx-configtool.desktop.in:4
+msgid "Change Fcitx Configuration"
+msgstr "Zmień Konfigurację Fcitx"
+
+#: skin/classic/fcitx_skin.conf.in:2 src/ui/classic/fcitx-classic-ui.conf.in:3
+msgid "Classic"
+msgstr "Klasyczny"
+
+#: skin/classic/fcitx_skin.conf.in:5
+msgid "Classic Skin"
+msgstr "Klasyczna Skórka"
+
+#: skin/dark/fcitx_skin.conf.in:2 skin/dark/fcitx_skin.conf.in:5
+msgid "Dark"
+msgstr "Ciemny"
+
+#: skin/default/fcitx_skin.conf.in:2 src/module/spell/fcitx-spell.desc:5
+msgid "Default"
+msgstr "Domyślny"
+
+#: skin/default/fcitx_skin.conf.in:5
+msgid "Default Skin"
+msgstr "Domyślna Skórka"
+
+#: src/frontend/ipc/fcitx-ipc.conf.in:3
+msgid "Fcitx DBus Frontend"
+msgstr "Fcitx DBus Front-end"
+
+#: src/frontend/ipc/fcitx-ipc.conf.in:4
+#: src/frontend/ipcportal/fcitx-ipcportal.conf.in:4
+msgid "Frontend Used by IM Modules"
+msgstr "Front-end wykorzystywany przez moduły MW."
+
+#: src/frontend/ipcportal/fcitx-ipcportal.conf.in:3
+msgid "Fcitx DBus Frontend (Portal version)"
+msgstr "Fcitx DBus Front-end (Wersja Portal)"
+
+#: src/frontend/xim/fcitx-xim.conf.in:3
+msgid "Fcitx XIM Frontend"
+msgstr "Fcitx XIM Front-end"
+
+#: src/frontend/xim/fcitx-xim.conf.in:4
+msgid "Provides XIM support"
+msgstr "Zawiera wsparcie XIM"
+
+#: src/im/keyboard/fcitx-keyboard.conf.in:3
+msgid "Keyboard Layout"
+msgstr "Układ klawiatury"
+
+#: src/im/keyboard/fcitx-keyboard.conf.in:4
+msgid "Use Keyboard Layout as Input Method"
+msgstr "Użyj Układu Klawiatury jako Metody Wpisywania"
+
+#: src/im/pinyin/fcitx-pinyin.conf.in:4
+msgid "Simple Pinyin support for Fcitx"
+msgstr "Proste wsparcie Pinyin dla Fcitx"
+
+#: src/im/pinyin/fcitx-pinyin.conf.in:9
+msgid "Shuang Pin Schema"
+msgstr "Schematy Shuang Pin"
+
+#: src/im/qw/fcitx-qw.conf.in:4
+msgid "Quwei Input Method for Fcitx"
+msgstr "Metody Wprowadzania Quwei dla Fcitx"
+
+#: src/im/table/data/cangjie.conf.in:3
+msgid "Cangjie"
+msgstr "Cangjie"
+
+#: src/im/table/data/db.conf.in:3
+msgid "Dianbaoma"
+msgstr "Dianbaoma"
+
+#: src/im/table/data/erbi.conf.in:3
+msgid "Erbi"
+msgstr "Erbi"
+
+#: src/im/table/data/qxm.conf.in:3
+msgid "Bingchan"
+msgstr "Bingchan"
+
+#: src/im/table/data/wanfeng.conf.in:3
+msgid "Wanfeng"
+msgstr "Wanfeng"
+
+#: src/im/table/data/wbpy.conf.in:3
+msgid "WubiPinyin"
+msgstr "WubiPinyin"
+
+#: src/im/table/data/wbx.conf.in:3
+msgid "Wubi"
+msgstr "Wubi"
+
+#: src/im/table/data/zrm.conf.in:3 src/im/pinyin/fcitx-pinyin.desc:4
+msgid "Ziranma"
+msgstr "Ziranma"
+
+#: src/im/table/fcitx-table.conf.in:3 src/im/table/fcitx-table.conf.in:10
+msgid "Table"
+msgstr "Tabela"
+
+#: src/im/table/fcitx-table.conf.in:4
+msgid "Table Input Method for Fcitx"
+msgstr "Tabela Metod Wprowadzania dla Fcitx"
+
+#: src/module/autoeng/fcitx-autoeng.conf.in:3
+msgid "Auto English Mode"
+msgstr "Automatyczny Tryb Angielski "
+
+#: src/module/autoeng/fcitx-autoeng.conf.in:4
+msgid "Auto Change to English Mode while Input Specific String"
+msgstr ""
+"Automatycznie zmień na Tryb Angielski, kiedy jest wprowadzany określony ciąg"
+" znaków"
+
+#: src/module/autoeng/fcitx-autoeng.conf.in:9
+msgid "Auto English Trigger Word"
+msgstr "Słowo automatycznego przełączania na angielski"
+
+#: src/module/chttrans/fcitx-chttrans.conf.in:4
+msgid "Convert Simplified Chinese To Traditional Chinese"
+msgstr "Konwertuj Uproszczony Chiński na Tradycyjny Chiński"
+
+#: src/module/clipboard/fcitx-clipboard.conf.in:3
+#: src/module/clipboard/fcitx-clipboard.desc:1
+#: src/module/clipboard/fcitx-clipboard.desc:6
+#: src/module/clipboard/fcitx-clipboard.desc:13
+#: src/module/clipboard/fcitx-clipboard.desc:22
+#: src/module/clipboard/fcitx-clipboard.desc:27
+#: src/module/clipboard/fcitx-clipboard.desc:34
+#: src/module/clipboard/fcitx-clipboard.desc:44
+msgid "Clipboard"
+msgstr "Schowek"
+
+#: src/module/clipboard/fcitx-clipboard.conf.in:4
+msgid "Fcitx Clipboard access"
+msgstr "Dostęp do Schowka Fcitx"
+
+#: src/module/dbus/fcitx-dbus.conf.in:3
+msgid "DBus Support"
+msgstr "Wsparcie DBus"
+
+#: src/module/dbus/fcitx-dbus.conf.in:4
+msgid "Provides DBus Support (Used by other Addon)"
+msgstr "Zawiera wsparcie DBus (wykorzystywane przez inne wtyczki)"
+
+#: src/module/freedesktop-notify/fcitx-freedesktop-notify.conf.in:3
+msgid "Freedesktop.org Notification Support"
+msgstr "Wsparcie notyfikacji Freedesktop.org"
+
+#: src/module/freedesktop-notify/fcitx-freedesktop-notify.conf.in:4
+msgid "Provides Freedesktop.org Notification Support (Used by other Addon)"
+msgstr ""
+"Dostarcza wsparcie notyfikacji Freedesktop.org (wykorzystywane przez inne "
+"wtyczki)"
+
+#: src/module/fullwidthchar/fcitx-fullwidth-char.conf.in:3
+msgid "Fullwidth Character"
+msgstr "Znak o pełnej szerokości"
+
+#: src/module/fullwidthchar/fcitx-fullwidth-char.conf.in:4
+msgid "Provides Fullwidth Character Input Support"
+msgstr "Zawiera wsparcie znaków o pełnej szerokości"
+
+#: src/module/imselector/fcitx-imselector.conf.in:3
+msgid "Input method selector"
+msgstr "Selektor metod wprowadzania"
+
+#: src/module/imselector/fcitx-imselector.conf.in:4
+msgid "Select specific input method via keyboard"
+msgstr "Wybierz określoną metodę wprowadzania przy użyciu klawiatury"
+
+#: src/module/lua/fcitx-lua.conf.in:3
+msgid "Fcitx Lua Support"
+msgstr "Wsparcie Fcitx dla Lua"
+
+#: src/module/lua/fcitx-lua.conf.in:4
+msgid "Add Lua script support to Fcitx"
+msgstr "Dodaj wsparcie skryptów Lua do Fcitx"
+
+#: src/module/notificationitem/fcitx-notificationitem.conf.in:3
+#: src/module/notificationitem/fcitx-notificationitem.conf.in:4
+msgid "DBus based new Freedesktop.org tray icon"
+msgstr "Oparta na DBus nowa Freedesktop.org ikona zasobnika"
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.conf.in:3
+msgid "Enhance pinyin input in Fcitx"
+msgstr "Ulepsz wprowadzanie pinyin dla Fcitx"
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.conf.in:4
+msgid "Provide extra feature for pinyin in Fcitx"
+msgstr "Dodaj nowe funkcje dla pinyin w Fcitx"
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.conf.in:9
+#: src/im/table/table.desc:126
+msgid "Symbol"
+msgstr "Symbol"
+
+#: src/module/punc/fcitx-punc.conf.in:4
+msgid "Punctuation Conversion Support"
+msgstr "Wsparcie dla konwersji interpunkcji"
+
+#: src/module/quickphrase/fcitx-quickphrase.conf.in:3
+msgid "Quickphrase"
+msgstr "SzybkaFraza"
+
+#: src/module/quickphrase/fcitx-quickphrase.conf.in:4
+msgid "Conveniently Input English or User-Defined Simple Table"
+msgstr ""
+"Wygodnie wprowadź Angielską lub wybraną przez użytkownika prostą tabelę"
+
+#: src/module/quickphrase/fcitx-quickphrase.conf.in:9
+msgid "Quick Phrase List"
+msgstr "Lista Szybkich Fraz"
+
+#: src/module/remote/fcitx-remote-module.conf.in:3
+msgid "Remote"
+msgstr "Zdalnie"
+
+#: src/module/remote/fcitx-remote-module.conf.in:4
+msgid "Used by fcitx-remote to change Fcitx state from console"
+msgstr "Użyto fcitx-remote, aby zmienić stan Fcitx z konsoli"
+
+#: src/module/spell/fcitx-spell.conf.in:3
+msgid "Spell"
+msgstr "Pisownia"
+
+#: src/module/spell/fcitx-spell.conf.in:4
+msgid "Fcitx Spelling Hint/Completion Support"
+msgstr "Wsparcie Fcitx dla podpowiedzi/uzupełniania pisowni"
+
+#: src/module/unicode/fcitx-unicode.conf.in:3
+msgid "Fcitx Unicode Typing Support"
+msgstr "Wsparcie Fcitx dla Unicode"
+
+#: src/module/unicode/fcitx-unicode.conf.in:4
+msgid "Add Unicode Typing Support"
+msgstr "Dodaj wsparcie dla Unicode"
+
+#: src/module/vk/fcitx-vk.conf.in:3 src/module/vk/fcitx-vk.conf.in:10
+msgid "Virtual Key Board"
+msgstr "Klawiatura Wirtualna"
+
+#: src/module/vk/fcitx-vk.conf.in:4
+msgid "Virtual Key Board in order to input special character"
+msgstr "Klawiatura Wirtualna, aby wprowadzić znaki specjalne"
+
+#: src/module/x11/fcitx-x11.conf.in:3
+msgid "X11 Support"
+msgstr "X11 Wsparcie"
+
+#: src/module/x11/fcitx-x11.conf.in:4
+msgid "X11 Utility used by other Addon"
+msgstr "X11 Utilitiy w użyciu przez inną wtyczkę"
+
+#: src/module/xkbdbus/fcitx-xkbdbus.conf.in:3
+#: src/module/xkbdbus/fcitx-xkbdbus.conf.in:4
+msgid "X Keyboard Integration export with DBus"
+msgstr "X Integracja Klawiatury, eksportuj przy użyciu DBus"
+
+#: src/module/xkb/fcitx-xkb.conf.in:3 src/module/xkb/fcitx-xkb.conf.in:4
+msgid "X Keyboard Integration"
+msgstr "X Integracja Klawiatury"
+
+#: src/ui/classic/fcitx-classic-ui.conf.in:4
+msgid "Classic User Interface with Skin support"
+msgstr "Klasyczny Interfejs Użytkownika ze wsparciem skórek"
+
+#: src/ui/classic/fcitx-skin-installer.desktop.in:3
+msgid "Fcitx Skin Installer"
+msgstr "Fcitx Instalator Skórek"
+
+#: src/ui/classic/fcitx-skin-installer.desktop.in:4
+msgid "Installer Script for Fcitx Skin"
+msgstr "Skrypt instalacyjny dla skórki Fcitx"
+
+#: src/ui/kimpanel/fcitx-kimpanel-ui.conf.in:3
+msgid "Kimpanel"
+msgstr "Kimpanel"
+
+#: src/ui/kimpanel/fcitx-kimpanel-ui.conf.in:4
+msgid "Kimpanel Support for Fcitx"
+msgstr "Wsparcie Kimpanel dla Fcitx"
+
+#: data/addon.desc:1 data/addon.desc:5 data/addon.desc:10 data/addon.desc:15
+#: data/addon.desc:24 data/addon.desc:29 data/addon.desc:33 data/addon.desc:40
+#: data/addon.desc:45 data/addon.desc:50 data/addon.desc:55 data/addon.desc:64
+#: data/addon.desc:69 data/addon.desc:74 data/addon.desc:79
+msgid "Add-ons"
+msgstr "Wtyczki"
+
+#: data/addon.desc:3 data/inputmethod.desc:7
+msgid "Name"
+msgstr "Nazwa"
+
+#: data/addon.desc:7
+msgid "Name that can be display in UI"
+msgstr "Nazwa, którą można wyświetlić w UI"
+
+#: data/addon.desc:12
+msgid "Comment"
+msgstr "Komentarz"
+
+#: data/addon.desc:18 data/inputmethod.desc:1 data/inputmethod.desc:5
+#: data/inputmethod.desc:9 data/inputmethod.desc:13 data/inputmethod.desc:17
+#: data/inputmethod.desc:21
+msgid "InputMethod"
+msgstr "MetodyWprowadzania"
+
+#: data/addon.desc:19
+msgid "Frontend"
+msgstr "Front-end"
+
+#: data/addon.desc:20
+msgid "Module"
+msgstr "Moduł"
+
+#: data/addon.desc:21
+msgid "UI"
+msgstr "UI"
+
+#: data/addon.desc:22
+msgid "Category"
+msgstr "Kategoria"
+
+#: data/addon.desc:27
+msgid "Enabled"
+msgstr "Włączony"
+
+#: data/addon.desc:31
+msgid "Library"
+msgstr "Biblioteka"
+
+#: data/addon.desc:36
+msgid "SharedLibrary"
+msgstr "Biblioteka Współdzielona"
+
+#: data/addon.desc:37
+msgid "DBus"
+msgstr "DBus"
+
+#: data/addon.desc:38
+msgid "Type"
+msgstr "Typ"
+
+#: data/addon.desc:43
+msgid "Dependency"
+msgstr "Zależność"
+
+#: data/addon.desc:48
+msgid "Priority of addon"
+msgstr "Priorytet wtyczki"
+
+#: data/addon.desc:53
+msgid "Sub Configuration for Module"
+msgstr "Pod-konfiguracja dla Modułu"
+
+#: data/addon.desc:58
+msgid "Register IM"
+msgstr "Zarejestruj MW"
+
+#: data/addon.desc:60
+msgid "Self"
+msgstr "Samo"
+
+#: data/addon.desc:61
+msgid "Exec"
+msgstr "Wykonaj"
+
+#: data/addon.desc:62
+msgid "ConfigFile"
+msgstr "PlikKonfiguracyjny"
+
+#: data/addon.desc:67
+msgid "Argument for InputMethod Register"
+msgstr "Argument do Rejestrowania MetodWprowadzania"
+
+#: data/addon.desc:72
+msgid "Fallback UI Addon"
+msgstr "Wtyczka Fallback UI "
+
+#: data/addon.desc:77
+msgid "Use RTLD_LOCAL to load library"
+msgstr "Używaj RTLD_LOCAL, aby załadować bibliotekę"
+
+#: data/addon.desc:82
+msgid "Do not show in GUI"
+msgstr "Nie pokazuj w GUI"
+
+#: data/config.desc:1 data/config.desc:7 data/config.desc:13
+#: data/config.desc:19 data/config.desc:46 data/config.desc:53
+#: data/config.desc:60 data/config.desc:67 data/config.desc:74
+#: data/config.desc:81 data/config.desc:91 data/config.desc:97
+#: data/config.desc:103 data/config.desc:110 data/config.desc:117
+#: data/config.desc:124 data/config.desc:131 data/config.desc:137
+#: data/config.desc:143 data/config.desc:149 data/config.desc:156
+#: data/config.desc:163 data/config.desc:171
+msgid "Hotkey"
+msgstr "Skróty klawiszowe"
+
+#: data/config.desc:4
+msgid "Enable Trigger Input Method"
+msgstr ""
+
+#: data/config.desc:11
+msgid "Trigger Input Method"
+msgstr "Włącz Metodę Wprowadzania"
+
+#: data/config.desc:16
+msgid "Use extra trigger key only after using it to inactivate"
+msgstr ""
+"Użyj dodatkowego klawiszu przełączania po wykorzystaniu go jako wyłącznika"
+
+#: data/config.desc:22
+msgid "R_CTRL"
+msgstr "R_CTRL"
+
+#: data/config.desc:23
+msgid "R_SHIFT"
+msgstr "R_SHIFT"
+
+#: data/config.desc:24
+msgid "L_SHIFT"
+msgstr "L_SHIFT"
+
+#: data/config.desc:25
+msgid "L_CTRL"
+msgstr "L_SHIFT"
+
+#: data/config.desc:26
+msgid "ALT_L_SHIFT"
+msgstr "ALT_L_SHIFT"
+
+#: data/config.desc:27
+msgid "ALT_R_SHIFT"
+msgstr "ALT_R_SHIFT"
+
+#: data/config.desc:28
+msgid "CTRL Both"
+msgstr "CTRL Both"
+
+#: data/config.desc:29
+msgid "SHIFT Both"
+msgstr "SHIFT Both"
+
+#: data/config.desc:30
+msgid "L_ALT"
+msgstr "L_ALT"
+
+#: data/config.desc:31
+msgid "R_ALT"
+msgstr "R_ALT"
+
+#: data/config.desc:32
+msgid "ALT Both"
+msgstr "ALT Both"
+
+#: data/config.desc:33
+msgid "Left Super"
+msgstr "Left Super"
+
+#: data/config.desc:34
+msgid "Right Super"
+msgstr "Right Super"
+
+#: data/config.desc:35
+msgid "Super Both"
+msgstr "Super Both"
+
+#: data/config.desc:36
+msgid "Ctrl+Left Super"
+msgstr "Ctrl+Left Super"
+
+#: data/config.desc:37
+msgid "Ctrl+Right Super"
+msgstr "Ctrl+Right Super"
+
+#: data/config.desc:38
+msgid "Super+Left Ctrl"
+msgstr "Super+Left Ctrl"
+
+#: data/config.desc:39
+msgid "Super+Right Ctrl"
+msgstr "Super+Right Ctrl"
+
+#: data/config.desc:41
+msgid "Custom"
+msgstr "Własne"
+
+#: data/config.desc:43
+msgid "Extra Key for Switching to the First Input Method"
+msgstr "Dodatkowy Klawisz do Przełączania między Pierwszą Metodą Wpisywania"
+
+#: data/config.desc:49
+msgid "Custom switch key"
+msgstr "Niestandardowy klawisz do przełączania"
+
+#: data/config.desc:56
+msgid "Activate input method"
+msgstr "Aktywuj metodę wprowadzania"
+
+#: data/config.desc:63
+msgid "Inactivate Input Method"
+msgstr "Wyłącz metodę wprowadzania"
+
+#: data/config.desc:70
+msgid "Enable Shortcuts to Scroll Between Input Methods"
+msgstr "Włącz skróty klawiszowe, aby przewijać między metodami wprowadzania"
+
+#: data/config.desc:77
+msgid "Include Inactive When Scrolling Between Input Methods"
+msgstr ""
+"Uwzględnij nieaktywne podczas przewijania między metodami wprowadzania"
+
+#: data/config.desc:84
+msgid "CTRL_SHIFT"
+msgstr "CTRL_SHIFT"
+
+#: data/config.desc:85
+msgid "ALT_SHIFT"
+msgstr "ALT_SHIFT"
+
+#: data/config.desc:86
+msgid "CTRL_SUPER"
+msgstr "CTRL_SUPER"
+
+#: data/config.desc:87
+msgid "ALT_SUPER"
+msgstr "ALT_SUPER"
+
+#: data/config.desc:89
+msgid "Scroll between Input Method"
+msgstr "Przewijaj między metodami wprowadzania"
+
+#: data/config.desc:94
+msgid "Reload configuration"
+msgstr "Przeładuj ustawienia"
+
+#: data/config.desc:100
+msgid "Interval of Two Key Input"
+msgstr "Interwał wejścia dwóch klawiszy"
+
+#: data/config.desc:106
+msgid "Switch Symbol Keyboard"
+msgstr "Przełącz Klawiaturę Symboliczną"
+
+#: data/config.desc:113
+msgid "Switch Remind Mode"
+msgstr "Przełącz tryb przypominania"
+
+#: data/config.desc:127
+msgid "Switch Fullwidth Character"
+msgstr "Przełącz na znaki o pełnej szerokości"
+
+#: data/config.desc:134
+msgid "Previous Page"
+msgstr "Poprzednia Strona"
+
+#: data/config.desc:140
+msgid "Next Page"
+msgstr "Następna Strona"
+
+#: data/config.desc:146
+msgid "Choose Second and Third Candidate Word"
+msgstr "Wybierz drugiego i trzeciego kandydata na słowo"
+
+#: data/config.desc:152
+msgid "Saving All Config and Input History"
+msgstr "Zapisywanie całej historii konfiguracji i wprowadzania"
+
+#: data/config.desc:159
+msgid "Switch Embedded Preedit String"
+msgstr "Przełącz osadzony preedit napis"
+
+#: data/config.desc:166
+msgid "Previous Candidate Word"
+msgstr "Poprzedni kandydat na słowo"
+
+#: data/config.desc:167
+msgid ""
+"This is used in some modules and input methods to navigate to the previous "
+"candidate word"
+msgstr ""
+"Jest to wykorzystywane w niektórych modułach i metodach wprowadzania, aby "
+"nawigować do poprzedniego kandydata na słowo"
+
+#: data/config.desc:174
+msgid "Next Candidate Word"
+msgstr "Następny kandydat na słowo"
+
+#: data/config.desc:175
+msgid ""
+"This is used in some modules and input methods to navigate to the next "
+"candidate word"
+msgstr ""
+"Jest to wykorzystywane w niektórych modułach i metodach wejścia, aby "
+"nawigować do następnego kandydata na słowo"
+
+#: data/config.desc:179 data/config.desc:185 data/config.desc:195
+msgid "Program"
+msgstr "Program"
+
+#: data/config.desc:182
+msgid "Seconds sleep before fcitx really start"
+msgstr "Sekundy przed, którymi fcitx startuje na prawdę"
+
+#: data/config.desc:189
+msgid "No"
+msgstr "Nie"
+
+#: data/config.desc:190
+msgid "All"
+msgstr "Wszystko"
+
+#: data/config.desc:191
+msgid "PerProgram"
+msgstr ""
+
+#: data/config.desc:192
+msgid "Share State Among Windows"
+msgstr "Współdzielaj stan między oknami"
+
+#: data/config.desc:197 data/config.desc:199
+msgid "Inactive"
+msgstr "Nieaktywny"
+
+#: data/config.desc:200
+msgid "Active"
+msgstr "Aktywny"
+
+#: data/config.desc:201
+msgid "Default Input Method State"
+msgstr "Stan domyślnej metody wprowadzania"
+
+#: data/config.desc:205 data/config.desc:212 data/config.desc:219
+#: data/config.desc:226 data/config.desc:234 data/config.desc:241
+msgid "Output"
+msgstr "Wyjście"
+
+#: data/config.desc:208
+msgid "Type Halfwidth Punctuation After a Number"
+msgstr "Wprowadź interpunkcję o połowie szerokości po wpisaniu cyfry"
+
+#: data/config.desc:215
+msgid "Disable Paging in Remind Mode"
+msgstr "Wyłącz stronicowanie w trybie przypominania"
+
+#: data/config.desc:222
+msgid "Commit When Toggle State"
+msgstr "Wysyłaj w stanie wyboru"
+
+#: data/config.desc:223
+msgid "Send typed raw text if Switch to inactive Mode"
+msgstr "Wyślij wpisany surowy tekst jeśli przełączono na tryb nieaktywny"
+
+#: data/config.desc:229 src/im/table/table.desc:176
+msgid "Candidate Word Number"
+msgstr "Liczba kandydata na słowo"
+
+#: data/config.desc:237
+msgid "Give the tips of Phrase"
+msgstr "Podawaj podpowiedzi frazy"
+
+#: data/config.desc:244
+msgid "Do Not Commit Preedit Text When a Window Loses Focus"
+msgstr "Nie wysyłaj tekstu preedit, kiedy okno straci zaznaczenie"
+
+#: data/config.desc:220 data/config.desc:226 data/config.desc:232
+#: data/config.desc:238 data/config.desc:244 data/config.desc:250
+#: data/config.desc:256
+msgid "Appearance"
+msgstr "Wygląd"
+
+#: data/config.desc:251
+msgid "Show Input Method Hint After Input Method Changed"
+msgstr "Pokaż podpowiedzi metod wprowadzania po zmianie na inną"
+
+#: data/config.desc:258
+msgid "Show Input Method Hint After Input Method Changed and Focus In"
+msgstr ""
+"Pokaż podpowiedzi metod wprowadzania po zmianie na inną i zmianie "
+"zaznaczenia"
+
+#: data/config.desc:265
+msgid "Show Input Method Hint Only When the State Is Active"
+msgstr ""
+"Pokaż podpowiedzi metod wprowadzania tylko wtedy, kiedy stan jest Aktywny"
+
+#: data/config.desc:272
+msgid "Show Input Speed"
+msgstr "Pokaż Prędkość Wprowadzania"
+
+#: data/config.desc:279
+msgid "Show Version"
+msgstr "Pokaż Wersję"
+
+#: data/config.desc:286
+msgid "Do Not Show Input Window If There Is Only Preedit String"
+msgstr ""
+"Nie pokazuj okna wprowadzania, jeśli widoczny jest tylko preedit tekst"
+
+#: data/config.desc:293
+msgid ""
+"Do Not Show Input Window If There Is Only One Candidate and Preedit String"
+msgstr ""
+"Nie pokazuj okna wprowadzania, jeśli widoczny jest tylko jeden kandydat i "
+"preedit tekst"
+
+#: data/inputmethod.desc:3
+msgid "UniqueName"
+msgstr "UnikalnaNazwa"
+
+#: data/inputmethod.desc:11
+msgid "IconName"
+msgstr "NazwaIkony"
+
+#: data/inputmethod.desc:15
+msgid "Priority"
+msgstr "Priorytet"
+
+#: data/inputmethod.desc:19
+msgid "LangCode"
+msgstr "KodJęzyka"
+
+#: data/inputmethod.desc:23
+msgid "Parent"
+msgstr "Rodzic"
+
+#: data/profile.desc:1 data/profile.desc:6 data/profile.desc:11
+#: data/profile.desc:16 data/profile.desc:21 data/profile.desc:26
+msgid "Profile"
+msgstr "Profil"
+
+#: data/profile.desc:2
+msgid "Use Full Width Character"
+msgstr "Użyj znaku o pełnej szerokości"
+
+#: data/profile.desc:7
+msgid "Use Wide Punctuation"
+msgstr "Użyj szerokiej interpunkcji"
+
+#: data/profile.desc:12
+msgid "Prompt the phrases after input"
+msgstr "Podpowiadaj frazy po wprowadzeniu"
+
+#: data/profile.desc:17
+msgid "Current Input Method Name"
+msgstr "Aktualna nazwa Metody Wprowadzania"
+
+#: data/profile.desc:22
+msgid "Current Enabled Input Method List"
+msgstr "Aktualnie włączona lista Metod Wprowadzania"
+
+#: data/profile.desc:29
+msgid "Show Preedit String in Client Window"
+msgstr "Pokaż preedit tekst w oknie klienta"
+
+#: src/frontend/xim/fcitx-xim.desc:1
+msgid "Xim"
+msgstr "Xim"
+
+#: src/frontend/xim/fcitx-xim.desc:4
+msgid "Use On The Spot Style for XIM (Cannot change during running)"
+msgstr "Użyj On The Spot Style dla XIM (Nie można zmienić podczas pracy)"
+
+#: src/im/keyboard/fcitx-keyboard.desc:4
+msgid "Commit with extra space when choose candidate word"
+msgstr "Wyślij z dodatkową spacją, podczas wybierania kandydata na słowo"
+
+#: src/im/keyboard/fcitx-keyboard.desc:7 src/im/table/table.desc:141
+#: src/module/autoeng/fcitx-autoeng.desc:2
+#: src/module/clipboard/fcitx-clipboard.desc:35
+#: src/module/quickphrase/fcitx-quickphrase.desc:16
+msgid "Choose key modifier"
+msgstr "Wybierz klawisz modyfikujący"
+
+#: src/im/keyboard/fcitx-keyboard.desc:11 src/im/table/table.desc:145
+#: src/module/autoeng/fcitx-autoeng.desc:6
+#: src/module/clipboard/fcitx-clipboard.desc:39
+#: src/module/quickphrase/fcitx-quickphrase.desc:5
+#: src/module/quickphrase/fcitx-quickphrase.desc:20
+msgid "None"
+msgstr "Brak"
+
+#: src/im/keyboard/fcitx-keyboard.desc:12 src/im/table/table.desc:146
+#: src/module/autoeng/fcitx-autoeng.desc:7
+#: src/module/clipboard/fcitx-clipboard.desc:40
+#: src/module/quickphrase/fcitx-quickphrase.desc:21
+msgid "Alt"
+msgstr "Alt"
+
+#: src/im/keyboard/fcitx-keyboard.desc:13 src/im/table/table.desc:147
+#: src/module/autoeng/fcitx-autoeng.desc:8
+#: src/module/clipboard/fcitx-clipboard.desc:41
+#: src/module/quickphrase/fcitx-quickphrase.desc:22
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: src/im/keyboard/fcitx-keyboard.desc:14 src/im/table/table.desc:148
+#: src/module/autoeng/fcitx-autoeng.desc:9
+#: src/module/clipboard/fcitx-clipboard.desc:42
+#: src/module/quickphrase/fcitx-quickphrase.desc:23
+msgid "Shift"
+msgstr "Shift"
+
+#: src/im/keyboard/fcitx-keyboard.desc:19
+msgid "Toggle the word hint"
+msgstr "Przełącz podpowiedź słowa"
+
+#: src/im/keyboard/fcitx-keyboard.desc:25
+msgid "Minimum length to trigger word hint"
+msgstr "Minimalna długość, aby włączyć podpowiedzi"
+
+#: src/im/keyboard/fcitx-keyboard.desc:32
+msgid "Maximum length of spell hint list"
+msgstr "Maksymalna długość listy podpowiedzi wpisywania"
+
+#: src/im/keyboard/fcitx-keyboard.desc:33
+msgid ""
+"A different value from the global one may be useful when using horizontal "
+"candidate list"
+msgstr ""
+"Wartość inna od globalnej, może być użyteczna podczas korzystania z poziomej"
+" listy kandydatów"
+
+#: src/im/keyboard/fcitx-keyboard.desc:39
+msgid "Use enter to commit the existing string"
+msgstr "Wciśnij enter, aby wprowadzić istniejący napis"
+
+#: src/im/keyboard/fcitx-keyboard.desc:44
+msgid "Add current input buffer to user dictionary"
+msgstr "Dodaj aktualny bufor wprowadzania do katalogu użytkownika"
+
+#: src/im/pinyin/fcitx-pinyin.desc:5
+msgid "MS"
+msgstr "MS"
+
+#: src/im/pinyin/fcitx-pinyin.desc:6
+msgid "Ziguang"
+msgstr "Ziguang"
+
+#: src/im/pinyin/fcitx-pinyin.desc:7
+msgid "ABC"
+msgstr "ABC"
+
+#: src/im/pinyin/fcitx-pinyin.desc:8
+msgid "Zhongwenzhixing"
+msgstr "Zhongwenzhixing"
+
+#: src/im/pinyin/fcitx-pinyin.desc:9
+msgid "PinyinJiaJia"
+msgstr "PinyinJiaJia"
+
+#: src/im/pinyin/fcitx-pinyin.desc:10
+msgid "XiaoHe"
+msgstr "XiaoHe"
+
+#: src/im/pinyin/fcitx-pinyin.desc:11
+msgid "User Defined"
+msgstr "Zdefiniowane przez użytkownika"
+
+#: src/im/pinyin/fcitx-pinyin.desc:13
+msgid "Default Shuangpin Schema"
+msgstr "Domyślny schemat Shuangpin"
+
+#: src/im/pinyin/fcitx-pinyin.desc:18
+msgid "Fix preedit cursor at head"
+msgstr "Napraw preedit kursor na czubku"
+
+#: src/im/pinyin/fcitx-pinyin.desc:23
+msgid "Use V to trigger quickphrase"
+msgstr "Przyciśnij V, aby włączyć SzybkąFrazę"
+
+#: src/im/pinyin/fcitx-pinyin.desc:28
+msgid "Use Complete Pinyin"
+msgstr "Korzystaj z kompletnego Pinyin"
+
+#: src/im/pinyin/fcitx-pinyin.desc:33
+msgid "Auto Create Phrase"
+msgstr "Automatycznie Twórz Frazę "
+
+#: src/im/pinyin/fcitx-pinyin.desc:38
+msgid "Save Auto Created Phrase"
+msgstr "Zapisz automatycznie wygenerowaną frazę"
+
+#: src/im/pinyin/fcitx-pinyin.desc:43
+msgid "Hotkey of Adding Frequent Word"
+msgstr "Skrót klawiszowy do dodania często używanego słowa"
+
+#: src/im/pinyin/fcitx-pinyin.desc:48
+msgid "Hotkey of Deleting Frequent Word"
+msgstr "Skrót klawiszowy do usunięcia często używanego słowa"
+
+#: src/im/pinyin/fcitx-pinyin.desc:53
+msgid "Hotkey of Delete User Phrase"
+msgstr "Skrót klawiszowy do usunięcia frazy użytkownika"
+
+#: src/im/pinyin/fcitx-pinyin.desc:58 src/im/pinyin/fcitx-pinyin.desc:67
+#: src/im/pinyin/fcitx-pinyin.desc:76 src/im/table/table.desc:23
+msgid "AdjustNo"
+msgstr "DopasujNie"
+
+#: src/im/pinyin/fcitx-pinyin.desc:59 src/im/pinyin/fcitx-pinyin.desc:68
+#: src/im/pinyin/fcitx-pinyin.desc:77 src/im/table/table.desc:24
+msgid "AdjustFast"
+msgstr "DopasujSzybko"
+
+#: src/im/pinyin/fcitx-pinyin.desc:60 src/im/pinyin/fcitx-pinyin.desc:69
+#: src/im/pinyin/fcitx-pinyin.desc:78 src/im/table/table.desc:25
+msgid "AdjustFreq"
+msgstr "DopasujCzęsto"
+
+#: src/im/pinyin/fcitx-pinyin.desc:62
+msgid "Rule of Candidate Word Order"
+msgstr "Zasada kolejności Kandydata na Słowo"
+
+#: src/im/pinyin/fcitx-pinyin.desc:71
+msgid "Rule of Candidate Phrase Order"
+msgstr "Zasada kolejności Kandydata na Frazę"
+
+#: src/im/pinyin/fcitx-pinyin.desc:80
+msgid "Rule of Frequent Word Order"
+msgstr "Zasada kolejności Częstego Słowa"
+
+#: src/im/pinyin/fcitx-pinyin.desc:85
+msgid "Fuzzy an and ang"
+msgstr "Rozmyte an i ang"
+
+#: src/im/pinyin/fcitx-pinyin.desc:90
+msgid "Fuzzy en and eng"
+msgstr "Rozmyte en i eng"
+
+#: src/im/pinyin/fcitx-pinyin.desc:95
+msgid "Fuzzy ian and iang"
+msgstr "Rozmyte ian i iang"
+
+#: src/im/pinyin/fcitx-pinyin.desc:100
+msgid "Fuzzy in and ing"
+msgstr "Rozmyte in i ing"
+
+#: src/im/pinyin/fcitx-pinyin.desc:105
+msgid "Fuzzy ou and u"
+msgstr "Rozmyte ou i u"
+
+#: src/im/pinyin/fcitx-pinyin.desc:110
+msgid "Fuzzy uan and uang"
+msgstr "Rozmyte uan i uang"
+
+#: src/im/pinyin/fcitx-pinyin.desc:115
+msgid "Fuzzy c and ch"
+msgstr "Rozmyte c i ch"
+
+#: src/im/pinyin/fcitx-pinyin.desc:120
+msgid "Fuzzy f and h"
+msgstr "Rozmyte f i h"
+
+#: src/im/pinyin/fcitx-pinyin.desc:125
+msgid "Fuzzy l and n"
+msgstr "Rozmyte I i n "
+
+#: src/im/pinyin/fcitx-pinyin.desc:130
+msgid "Fuzzy s and sh"
+msgstr "Rozmyte s i sh"
+
+#: src/im/pinyin/fcitx-pinyin.desc:135
+msgid "Fuzzy z and zh"
+msgstr "Rozmyte z i zh"
+
+#: src/im/pinyin/fcitx-pinyin.desc:140
+msgid "Fix mistype gn/ng"
+msgstr "Popraw błąd pisowni gn/ng"
+
+#: src/im/pinyin/fcitx-pinyin.desc:145
+msgid "Fix mistype v/u like jv, qv, xv, yv"
+msgstr "Popraw błąd pisowni v/u takie jak jv, qv, xv, yv"
+
+#: src/im/table/fcitx-table.desc:1 src/im/table/fcitx-table.desc:6
+#: src/im/table/fcitx-table.desc:11 src/im/table/fcitx-table.desc:16
+#: src/im/table/fcitx-table.desc:21 src/module/unicode/fcitx-unicode.desc:3
+msgid "Key"
+msgstr "Klucz"
+
+#: src/im/table/fcitx-table.desc:4
+msgid "Add Phrase"
+msgstr "Dodaj Frazę"
+
+#: src/im/table/fcitx-table.desc:9
+msgid "Delete Phrase"
+msgstr "Usuń Frazę"
+
+#: src/im/table/fcitx-table.desc:14 src/im/table/table.desc:19
+msgid "Adjust Order"
+msgstr "Dostosuj Kolejność"
+
+#: src/im/table/fcitx-table.desc:19
+msgid "Clear Frequency"
+msgstr "Wyczyść Częstotliwość"
+
+#: src/im/table/fcitx-table.desc:24
+msgid "Lookup Pinyin"
+msgstr "Podejrzyj Pinyin"
+
+#: src/im/table/table.desc:1 src/im/table/table.desc:6
+#: src/im/table/table.desc:10 src/im/table/table.desc:14
+#: src/im/table/table.desc:18 src/im/table/table.desc:27
+#: src/im/table/table.desc:33 src/im/table/table.desc:38
+#: src/im/table/table.desc:43 src/im/table/table.desc:48
+#: src/im/table/table.desc:53 src/im/table/table.desc:58
+#: src/im/table/table.desc:63 src/im/table/table.desc:68
+#: src/im/table/table.desc:73 src/im/table/table.desc:78
+#: src/im/table/table.desc:83 src/im/table/table.desc:87
+#: src/im/table/table.desc:92 src/im/table/table.desc:97
+#: src/im/table/table.desc:102 src/im/table/table.desc:107
+#: src/im/table/table.desc:112 src/im/table/table.desc:116
+#: src/im/table/table.desc:125 src/im/table/table.desc:130
+#: src/im/table/table.desc:135 src/im/table/table.desc:140
+#: src/im/table/table.desc:150 src/im/table/table.desc:155
+#: src/im/table/table.desc:160 src/im/table/table.desc:165
+#: src/im/table/table.desc:170 src/im/table/table.desc:175
+#: src/im/table/table.desc:182 src/im/table/table.desc:187
+#: src/im/table/table.desc:192 src/im/table/table.desc:197
+#: src/im/table/table.desc:202 src/im/table/table.desc:207
+#: src/im/table/table.desc:212 src/im/table/table.desc:217
+#: src/im/table/table.desc:222
+msgid "CodeTable"
+msgstr "TabelaKodów"
+
+#: src/im/table/table.desc:2
+msgid "Unique Name for Table"
+msgstr "Unikalna Nazwa dla Tabeli"
+
+#: src/im/table/table.desc:7
+msgid "Code Table Name"
+msgstr "Nazwa Kodowa Tabeli"
+
+#: src/im/table/table.desc:11
+msgid "Icon Name"
+msgstr "Nazwa Ikony"
+
+#: src/im/table/table.desc:15
+msgid "Code Table File"
+msgstr "Plik Kodowy Tabeli"
+
+#: src/im/table/table.desc:28
+msgid "Level of simple code"
+msgstr "Poziom prostego kodu"
+
+#: src/im/table/table.desc:29
+msgid "Do not sort word with code less than this level"
+msgstr "Nie sortuj słów z kodem mniejszym od tego poziomu"
+
+#: src/im/table/table.desc:34
+msgid "Order of Code Table"
+msgstr "Kolejność Kodu Tabeli"
+
+#: src/im/table/table.desc:39
+msgid "Use Pinyin"
+msgstr "Użyj Pinyin"
+
+#: src/im/table/table.desc:44
+msgid "Pinyin Key"
+msgstr "Znak Pinyin"
+
+#: src/im/table/table.desc:49
+msgid "Auto Send Candidate Word"
+msgstr "Automatycznie wysyłaj kandydata na słowo"
+
+#: src/im/table/table.desc:54
+msgid ""
+"Minimum length trigger auto send candidate word when only one candidate"
+msgstr ""
+"Minimalna długość przełączania Automatycznie wysyłaj kandydata na słowo, "
+"kiedy jest tylko jeden kandydat"
+
+#: src/im/table/table.desc:59
+msgid ""
+"Minimum length trigger auto send candidate when there will be no candidate"
+msgstr ""
+"Minimalna długość przełączania Automatycznie wysyłaj kandydata na słowo, "
+"kiedy nie będzie kandydata"
+
+#: src/im/table/table.desc:64
+msgid "Send Raw Preedit"
+msgstr "Wyślij surowy preedit"
+
+#: src/im/table/table.desc:69
+msgid "End Key"
+msgstr "Klawisz End"
+
+#: src/im/table/table.desc:74
+msgid "Use Matching Key"
+msgstr "Użyj pasujących Klawiszy"
+
+#: src/im/table/table.desc:79
+msgid "Matching Key"
+msgstr "Pasujący Klawisz"
+
+#: src/im/table/table.desc:84
+msgid "Exact Match"
+msgstr "Dokładne Dopasowanie"
+
+#: src/im/table/table.desc:88
+msgid "Auto Phrase"
+msgstr "Automatyczna Fraza"
+
+#: src/im/table/table.desc:93
+msgid ""
+"Keep current buffer when there is no match item and input length is equal "
+"code length"
+msgstr ""
+"Zachowaj aktualny bufor, kiedy nie znaleziono dopasowania i długość "
+"wprowadzania jest równa długości kodu"
+
+#: src/im/table/table.desc:98
+msgid "Auto Phrase Length"
+msgstr "Automatyczna długość Frazy"
+
+#: src/im/table/table.desc:103
+msgid "Auto Phrase Phrase"
+msgstr "Automatycznie Frazuj Frazę"
+
+#: src/im/table/table.desc:108
+msgid "Save Auto Phrase"
+msgstr "Zapisz automatyczną Frazę"
+
+#: src/im/table/table.desc:113
+msgid "Prompt Table Code"
+msgstr "Wyświetl Kod Tabeli"
+
+#: src/im/table/table.desc:117
+msgid "Candidate Table Layout"
+msgstr "Układ Tabeli Kandydata"
+
+#: src/im/table/table.desc:121
+msgid "Not Set"
+msgstr "Nie ustawiony"
+
+#: src/im/table/table.desc:122
+msgid "Vertical"
+msgstr "Pionowy"
+
+#: src/im/table/table.desc:123
+msgid "Horizontal"
+msgstr "Poziomy"
+
+#: src/im/table/table.desc:131
+msgid "Symbol File"
+msgstr "Plik Symbolów"
+
+#: src/im/table/table.desc:136
+msgid "Choose"
+msgstr "Wybierz"
+
+#: src/im/table/table.desc:151
+msgid "Language Code for this table"
+msgstr "Wybierz język dla tej tabeli"
+
+#: src/im/table/table.desc:156
+msgid "Enable"
+msgstr "Włącz"
+
+#: src/im/table/table.desc:161
+msgid "Use Custom Prompt String defined in table"
+msgstr "Użyj niestandardowego komunikatu napisu zdefiniowanego w tabeli"
+
+#: src/im/table/table.desc:166
+msgid "Keyboard Layout to be used"
+msgstr "Układ klawiatury do użycia"
+
+#: src/im/table/table.desc:171
+msgid "Use Alternative Candidate Word Number"
+msgstr "Użyj alternatywnej cyfry kandydata na słowo"
+
+#: src/im/table/table.desc:183
+msgid "Use Alternative Key for paging"
+msgstr "Użyj alternatywnego klawisza do stronicowania"
+
+#: src/im/table/table.desc:188
+msgid "Alternative Prev Page Key"
+msgstr "Alternatywny klawisz Poprzedniej Strony"
+
+#: src/im/table/table.desc:193
+msgid "Alternative Next Page Key"
+msgstr "Alternatywny klawisz Następnej Strony"
+
+#: src/im/table/table.desc:198
+msgid "First Candidate Display as Preedit"
+msgstr "Wyświetl pierwszego kandydata jako preedit"
+
+#: src/im/table/table.desc:203
+msgid "Commit and pass when invalid key of this table pressed"
+msgstr "Wyślij i podaj kiedy nieprawidłowy klawisz tej tabeli jest wciśnięty"
+
+#: src/im/table/table.desc:208
+msgid "Commit key for select first candidate"
+msgstr "Klawisz wysyłania dla wybierania pierwszego kandydata"
+
+#: src/im/table/table.desc:213
+msgid "Commit string when there is no match"
+msgstr "Wyślij napis kiedy brakuje dopasowania"
+
+#: src/im/table/table.desc:218
+msgid "Ignore Punctuation"
+msgstr "Ignoruj Interpunkcję"
+
+#: src/im/table/table.desc:223
+msgid "Ignore some Punctuation, if it is empty, then ignore all punctuation"
+msgstr "Ignoruj niektórą interpunkcje, jeśli jest pusta, ignoruj całą"
+
+#: src/module/autoeng/fcitx-autoeng.desc:1
+#: src/module/autoeng/fcitx-autoeng.desc:11
+#: src/module/autoeng/fcitx-autoeng.desc:17
+#: src/module/autoeng/fcitx-autoeng.desc:26
+#: src/module/autoeng/fcitx-autoeng.desc:34
+msgid "Auto English"
+msgstr "Automatyczny Angielski"
+
+#: src/module/autoeng/fcitx-autoeng.desc:12
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:14
+#: src/module/quickphrase/fcitx-quickphrase.desc:26
+msgid "Do not show spell hint"
+msgstr "Nie pokazuj podpowiedzi pisowni"
+
+#: src/module/autoeng/fcitx-autoeng.desc:22
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:23
+#: src/module/quickphrase/fcitx-quickphrase.desc:36
+msgid "Maximum hint length"
+msgstr "Maksymalna długość podpowiedzi"
+
+#: src/module/autoeng/fcitx-autoeng.desc:23
+msgid "Maximum length of spell hint list for Auto English"
+msgstr ""
+"Maksymalna długość listy podpowiedzi pisowni dla Automatycznego Angielskiego"
+
+#: src/module/autoeng/fcitx-autoeng.desc:30
+msgid "Maximum words number kept in preedit"
+msgstr "Maksymalna liczba słów zachowywana w preedit"
+
+#: src/module/autoeng/fcitx-autoeng.desc:31
+msgid "0 for commit immediately, -1 for keep all words"
+msgstr "0, aby wysłać natychmiastowo, -1 aby zachować wszystkie słowa"
+
+#: src/module/autoeng/fcitx-autoeng.desc:37
+msgid "Add Extra space when selecting a candidate word"
+msgstr "Dodaj dodatkową spację podczas, gdy wybierasz kandydata na słowo"
+
+#: src/module/chttrans/fcitx-chttrans.desc:1
+#: src/module/chttrans/fcitx-chttrans.desc:9
+#: src/module/chttrans/fcitx-chttrans.desc:14
+msgid "TraditionalChinese"
+msgstr "Chiński Tradycyjny"
+
+#: src/module/chttrans/fcitx-chttrans.desc:4
+msgid "Native"
+msgstr "Natywny"
+
+#: src/module/chttrans/fcitx-chttrans.desc:5
+msgid "OpenCC"
+msgstr "OpenCC"
+
+#: src/module/chttrans/fcitx-chttrans.desc:6
+msgid "Traditional Chinese Translate Engine"
+msgstr "Silnik tłumaczenia Chińskiego Tradycyjnego"
+
+#: src/module/chttrans/fcitx-chttrans.desc:12
+msgid "Toggle for enable or disable"
+msgstr "Przełącz, aby włączyć lub wyłączyć"
+
+#: src/module/chttrans/fcitx-chttrans.desc:17
+msgid "Enabled state for im"
+msgstr "Stan włączony dla MW"
+
+#: src/module/clipboard/fcitx-clipboard.desc:4
+msgid "Save Clipboard History To File"
+msgstr "Zapisz Historię Schowka do Pliku"
+
+#: src/module/clipboard/fcitx-clipboard.desc:11
+msgid "Length of Clipboard History to Save"
+msgstr "Długość Historii Schowka do Zapisania"
+
+#: src/module/clipboard/fcitx-clipboard.desc:19
+msgid "Maximum length of each candidate word"
+msgstr "Maksymalna długość każdego kandydata na słowo"
+
+#: src/module/clipboard/fcitx-clipboard.desc:20
+msgid ""
+"Roughly the same length with this number of english letters, the actual "
+"length depends on the font and the content"
+msgstr ""
+"Z grubsza taka sama długość z tą liczbą angielskich liter, faktyczna długość"
+" zależy od czcionki i zawartości"
+
+#: src/module/clipboard/fcitx-clipboard.desc:25
+msgid "Trigger Key for Clipboard History List"
+msgstr "Klawisz włączania listy historii schowka"
+
+#: src/module/clipboard/fcitx-clipboard.desc:30
+msgid "Use Selection Text"
+msgstr "Użyj wybrany tekst"
+
+#: src/module/clipboard/fcitx-clipboard.desc:31
+msgid "Include the text currently selected in clipboard history."
+msgstr ""
+"Włącznie z tekstem, który aktualnie jest zaznaczony w historii schowka."
+
+#: src/module/clipboard/fcitx-clipboard.desc:45
+msgid "Ignore blank selections"
+msgstr "Ignoruj puste zaznaczenia"
+
+#: src/module/imselector/fcitx-imselector.desc:1
+#: src/module/imselector/fcitx-imselector.desc:6
+#: src/module/imselector/fcitx-imselector.desc:11
+msgid "IMSelector"
+msgstr "SelektorMW"
+
+#: src/module/imselector/fcitx-imselector.desc:4
+msgid "Local Input Method SelectKey"
+msgstr "Lokalna Metoda Wprowadzania Wybierz Klawisz"
+
+#: src/module/imselector/fcitx-imselector.desc:9
+msgid "Global Input Method SelectKey"
+msgstr "Globalna Metoda Wprowadzania Wybierz Klawisz"
+
+#: src/module/imselector/fcitx-imselector.desc:14
+msgid "Clear local Input Method"
+msgstr "Wyczyść lokalne metody wprowadzania"
+
+#: src/module/imselector/fcitx-imselector.desc:16
+#: src/module/imselector/fcitx-imselector.desc:21
+#: src/module/imselector/fcitx-imselector.desc:26
+#: src/module/imselector/fcitx-imselector.desc:31
+#: src/module/imselector/fcitx-imselector.desc:36
+#: src/module/imselector/fcitx-imselector.desc:41
+#: src/module/imselector/fcitx-imselector.desc:46
+#: src/module/imselector/fcitx-imselector.desc:51
+#: src/module/imselector/fcitx-imselector.desc:56
+msgid "GlobalSelector"
+msgstr "GlobalnySelektor"
+
+#: src/module/imselector/fcitx-imselector.desc:19
+#: src/module/imselector/fcitx-imselector.desc:64
+msgid "Switch to the First Input Method"
+msgstr "Zmień na pierwszą metodę wprowadzania"
+
+#: src/module/imselector/fcitx-imselector.desc:24
+#: src/module/imselector/fcitx-imselector.desc:69
+msgid "Switch to the Second Input Method"
+msgstr "Zmień na drugą metodę wprowadzania"
+
+#: src/module/imselector/fcitx-imselector.desc:29
+#: src/module/imselector/fcitx-imselector.desc:74
+msgid "Switch to the Third Input Method"
+msgstr "Zmień na trzecią metodę wprowadzania"
+
+#: src/module/imselector/fcitx-imselector.desc:34
+#: src/module/imselector/fcitx-imselector.desc:79
+msgid "Switch to the Fourth Input Method"
+msgstr "Zmień na czwartą metodę wprowadzania"
+
+#: src/module/imselector/fcitx-imselector.desc:39
+#: src/module/imselector/fcitx-imselector.desc:84
+msgid "Switch to the Fifth Input Method"
+msgstr "Zmień na piątą metodę wprowadzania"
+
+#: src/module/imselector/fcitx-imselector.desc:44
+#: src/module/imselector/fcitx-imselector.desc:89
+msgid "Switch to the Sixth Input Method"
+msgstr "Zmień na szóstą metodę wprowadzania"
+
+#: src/module/imselector/fcitx-imselector.desc:49
+#: src/module/imselector/fcitx-imselector.desc:94
+msgid "Switch to the Seventh Input Method"
+msgstr "Zmień na siódmą metodę wprowadzania"
+
+#: src/module/imselector/fcitx-imselector.desc:54
+#: src/module/imselector/fcitx-imselector.desc:99
+msgid "Switch to the Eighth Input Method"
+msgstr "Zmień na ósmą metodę wprowadzania"
+
+#: src/module/imselector/fcitx-imselector.desc:59
+#: src/module/imselector/fcitx-imselector.desc:104
+msgid "Switch to the Ninth Input Method"
+msgstr "Zmień na dziewiątą  metodę wprowadzania"
+
+#: src/module/imselector/fcitx-imselector.desc:61
+#: src/module/imselector/fcitx-imselector.desc:66
+#: src/module/imselector/fcitx-imselector.desc:71
+#: src/module/imselector/fcitx-imselector.desc:76
+#: src/module/imselector/fcitx-imselector.desc:81
+#: src/module/imselector/fcitx-imselector.desc:86
+#: src/module/imselector/fcitx-imselector.desc:91
+#: src/module/imselector/fcitx-imselector.desc:96
+#: src/module/imselector/fcitx-imselector.desc:101
+msgid "LocalSelector"
+msgstr "LokalnySelektor"
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:1
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:7
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:13
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:18
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:27
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:32
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:37
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:42
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:50
+msgid "Pinyin Enhance"
+msgstr "Wzbogacanie Pinyin"
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:4
+msgid "Treating abbreviated Pinyin as English"
+msgstr "Traktowanie skróconego Pinyin jako Angielskiego"
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:5
+msgid "Useful when you hardly ever use abbreviated pinyin."
+msgstr "Użyteczne, kiedy prawie nigdy nie korzystasz z skróconego pinyin."
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:10
+msgid "Allow replacing the first candidate"
+msgstr "Zezwól na zastępowanie pierwszego kandydata"
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:11
+msgid ""
+"Allow Pinyin Enhance to replace the first candidate word when the input "
+"string is very closed to English."
+msgstr ""
+"Pozwól Pinyin Enhance na zastępowanie pierwszego kandydata na słowo, kiedy "
+"napis wejściowy jest bardzo podobny do Angielskiego."
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:24
+msgid "Maximum length of spell hint list for Pinyin Enhance"
+msgstr "Maksymalna długość listy podpowiedzi pisowni dla Pinyin Enhance"
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:30
+msgid "Hotkey for Inputing Character From Phrase"
+msgstr "Skrót Klawiszowy do wprowadzenia Znaku z Frazy "
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:35
+msgid "Hotkey for switching to Inputing Character From Phrase mode"
+msgstr "Skrót Klawiszowy do przełączania Wprowadzenia Znaku z Trybu Frazy"
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:40
+msgid "Disable Pinyin Symbol"
+msgstr "Wyłącz Symbole Pinyin"
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:46
+msgid "Minimum input length to trigger stroke input (set to -1 to disable)"
+msgstr ""
+"Minimalna długość, aby włączyć Stroke Input (ustaw na -1, aby wyłączyć)"
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:47
+msgid "Stroke input trigger length"
+msgstr "Stroke input długość włącznika"
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:55
+msgid "Maximum results from stroke input."
+msgstr "Maksymalna ilość wyników z stroke input."
+
+#: src/module/pinyin-enhance/fcitx-pinyin-enhance.desc:56
+msgid ""
+"This is only a soft limit, the actually number of candidate words may be "
+"larger than this when multiple characters have the same order of strokes."
+msgstr ""
+"Jest to tylko lekki limit, faktyczna ilość kandydatów na słowa, może być "
+"większa niż ustawiona, kiedy wiele znaków posiada taki sam układ strokes."
+
+#: src/module/quickphrase/fcitx-quickphrase.desc:1
+#: src/module/quickphrase/fcitx-quickphrase.desc:10
+#: src/module/quickphrase/fcitx-quickphrase.desc:15
+#: src/module/quickphrase/fcitx-quickphrase.desc:25
+#: src/module/quickphrase/fcitx-quickphrase.desc:31
+msgid "QuickPhrase"
+msgstr "SzybkaFraza"
+
+#: src/module/quickphrase/fcitx-quickphrase.desc:6
+msgid "Semicolon"
+msgstr "Średnik"
+
+#: src/module/quickphrase/fcitx-quickphrase.desc:7
+msgid "Grave"
+msgstr "Gravis"
+
+#: src/module/quickphrase/fcitx-quickphrase.desc:8
+msgid "Trigger Key for QuickPhrase"
+msgstr "Klawisz włączania SzybkiejFrazy"
+
+#: src/module/quickphrase/fcitx-quickphrase.desc:13
+msgid "Alternative Trigger Key for QuickPhrase"
+msgstr "Alternatywny Klawisz dla SzybkiejFrazy"
+
+#: src/module/quickphrase/fcitx-quickphrase.desc:37
+msgid "Maximum length of spell hint list for Quick Phrase"
+msgstr "Maksymalna długość listy podpowiedzi pisowni dla SzybkiejFrazy"
+
+#: src/module/spell/fcitx-spell.desc:1 src/module/spell/fcitx-spell.desc:10
+msgid "Spell Hint"
+msgstr "Podpowiedzi pisowni"
+
+#: src/module/spell/fcitx-spell.desc:6
+msgid "Aspell"
+msgstr "Aspell"
+
+#: src/module/spell/fcitx-spell.desc:7
+msgid "Myspell"
+msgstr "Myspell"
+
+#: src/module/spell/fcitx-spell.desc:8
+msgid "Preferred Enchant provider"
+msgstr "Preferowany dostawca wzbogaceń"
+
+#: src/module/spell/fcitx-spell.desc:11
+msgid "Default Spell Hint Backends Order"
+msgstr "Domyślny układ podpowiedzi pisowni Back-end"
+
+#: src/module/spell/fcitx-spell.desc:14
+msgid "Possible Providers: presage, custom, enchant (separate with comma)"
+msgstr "Możliwi Dostawcy: presage, custom, enchant (oddzielaj przecinkiem)"
+
+#: src/module/unicode/fcitx-unicode.desc:1
+msgid "Unicode"
+msgstr "Unicode"
+
+#: src/module/xkb/fcitx-xkb.desc:1 src/module/xkb/fcitx-xkb.desc:6
+#: src/module/xkb/fcitx-xkb.desc:12 src/module/xkb/fcitx-xkb.desc:17
+msgid "X Keyboard"
+msgstr "X Klawiatura"
+
+#: src/module/xkb/fcitx-xkb.desc:4
+msgid "Allow to Override System XKB Settings"
+msgstr "Pozwól na nadpisywanie systemowych ustawień XKB"
+
+#: src/module/xkb/fcitx-xkb.desc:9
+msgid ""
+"Use the layout of first keyboard input method in list as default layout"
+msgstr ""
+"Użyj ułożenia pierwszej klawiatury metod wprowadzania na liście jako "
+"domyślnego ułożenia"
+
+#: src/module/xkb/fcitx-xkb.desc:10
+msgid ""
+"For example, if Keyboard - English (US) is the first input method in the "
+"list, then English (US) will be applied to all other non keyboard input "
+"method layout"
+msgstr ""
+"Na przykład, jeśli Klawiatura - Angielski (US) jest pierwszą metodą "
+"wprowadzania na liście, wtedy Angielski (US), będzie zastosowany do "
+"wszystkich innych nie-klawiaturowych układów metod wprowadzania"
+
+#: src/module/xkb/fcitx-xkb.desc:15
+msgid "xmodmap command"
+msgstr "xmodmap komenda "
+
+#: src/module/xkb/fcitx-xkb.desc:20
+msgid "Apply this custom xmodmap script after layout change"
+msgstr "Zastosuj ten niestandardowy skrypt xmodmap po zmianie układu"
+
+#: src/ui/classic/fcitx-classic-ui.desc:1
+#: src/ui/classic/fcitx-classic-ui.desc:7
+#: src/ui/classic/fcitx-classic-ui.desc:13
+#: src/ui/classic/fcitx-classic-ui.desc:20
+#: src/ui/classic/fcitx-classic-ui.desc:25
+#: src/ui/classic/fcitx-classic-ui.desc:30
+#: src/ui/classic/fcitx-classic-ui.desc:36
+#: src/ui/classic/fcitx-classic-ui.desc:41
+#: src/ui/classic/fcitx-classic-ui.desc:51
+#: src/ui/classic/fcitx-classic-ui.desc:56
+msgid "ClassicUI"
+msgstr "KlasyczneUI"
+
+#: src/ui/classic/fcitx-classic-ui.desc:2
+msgid "Status Panel Position X"
+msgstr "Pozycja Status Panel X"
+
+#: src/ui/classic/fcitx-classic-ui.desc:8
+msgid "Status Panel Position Y"
+msgstr "Pozycja Status Panel Y"
+
+#: src/ui/classic/fcitx-classic-ui.desc:16
+msgid "Font Size"
+msgstr "Rozmiar Czcionki"
+
+#: src/ui/classic/fcitx-classic-ui.desc:18
+msgid "Override the skin font size"
+msgstr "Nadpisz rozmiar czcionki skórki"
+
+#: src/ui/classic/fcitx-classic-ui.desc:23
+msgid "Font"
+msgstr "Czcionka"
+
+#: src/ui/classic/fcitx-classic-ui.desc:28
+msgid "Menu Font"
+msgstr "Menu Czcionek"
+
+#: src/ui/classic/fcitx-classic-ui.desc:33
+msgid "Font Locale to display"
+msgstr "Język czcionki do wyświetlenia"
+
+#: src/ui/classic/fcitx-classic-ui.desc:39
+msgid "Use System Tray Icon"
+msgstr "Użyj systemowej ikony zasobnika"
+
+#: src/ui/classic/fcitx-classic-ui.desc:44
+msgid "Show"
+msgstr "Pokaż"
+
+#: src/ui/classic/fcitx-classic-ui.desc:45
+msgid "Auto"
+msgstr "Automatycznie"
+
+#: src/ui/classic/fcitx-classic-ui.desc:46
+msgid "Hide when tray icon is available"
+msgstr "Ukryj kiedy ikona zasobnika jest dostępna"
+
+#: src/ui/classic/fcitx-classic-ui.desc:47
+msgid "Hide"
+msgstr "Ukryj"
+
+#: src/ui/classic/fcitx-classic-ui.desc:49
+msgid "Status Panel Hide Mode"
+msgstr "Status Panel tryb ukrywania"
+
+#: src/ui/classic/fcitx-classic-ui.desc:54
+msgid "Vertical Candidate Word List"
+msgstr "Pionowa lista kandydatów na słowa"
+
+#: src/ui/classic/fcitx-classic-ui.desc:59 src/ui/classic/skin.desc:3
+msgid "Skin Name"
+msgstr "Nazwa Skórki"
+
+#: src/ui/classic/skin.desc:1 src/ui/classic/skin.desc:5
+#: src/ui/classic/skin.desc:9 src/ui/classic/skin.desc:13
+msgid "SkinInfo"
+msgstr "Info o Skórce"
+
+#: src/ui/classic/skin.desc:7
+msgid "Skin Version"
+msgstr "Wersja Skórki"
+
+#: src/ui/classic/skin.desc:11
+msgid "Skin Author"
+msgstr "Autor Skórki"
+
+#: src/ui/classic/skin.desc:15
+msgid "Description of Skin"
+msgstr "Opis Skórki"
+
+#: src/ui/classic/skin.desc:17 src/ui/classic/skin.desc:21
+#: src/ui/classic/skin.desc:26 src/ui/classic/skin.desc:31
+#: src/ui/classic/skin.desc:35 src/ui/classic/skin.desc:39
+#: src/ui/classic/skin.desc:43 src/ui/classic/skin.desc:47
+#: src/ui/classic/skin.desc:51 src/ui/classic/skin.desc:55
+#: src/ui/classic/skin.desc:59 src/ui/classic/skin.desc:63
+msgid "SkinFont"
+msgstr "Czcionka Skórki"
+
+#: src/ui/classic/skin.desc:19
+msgid "Input Font Size"
+msgstr "Wprowadź Rozmiar Czcionki"
+
+#: src/ui/classic/skin.desc:23
+msgid "Menu Font Size"
+msgstr "Menu Rozmiaru Czcionki"
+
+#: src/ui/classic/skin.desc:28
+msgid "Font sizes respect dpi setting"
+msgstr "Rozmiary czcionek respektują ustawienie dpi"
+
+#: src/ui/classic/skin.desc:33
+msgid "Tip Message Color"
+msgstr "Wskazówka Koloru Wiadomości"
+
+#: src/ui/classic/skin.desc:37
+msgid "Input Message Color"
+msgstr "Wprowadź Kolor Wiadomości"
+
+#: src/ui/classic/skin.desc:41
+msgid "Candidate Index Color"
+msgstr "Kolor Indeksu Kandydata"
+
+#: src/ui/classic/skin.desc:45
+msgid "First Candidate Color"
+msgstr "Kolor Pierwszego Kandydata"
+
+#: src/ui/classic/skin.desc:49
+msgid "User Phrase Color"
+msgstr "Kolor Frazy Użytkownika"
+
+#: src/ui/classic/skin.desc:53
+msgid "Table Code Color"
+msgstr "Kolor Kodu Tabeli"
+
+#: src/ui/classic/skin.desc:57
+msgid "Other Color"
+msgstr "Inne Kolory"
+
+#: src/ui/classic/skin.desc:61
+msgid "Active Menu Item Character Color"
+msgstr "Aktywne Menu Przedmiotów Kolor Znaku "
+
+#: src/ui/classic/skin.desc:65
+msgid "Inactive Menu Item Character Color"
+msgstr "Nieaktywne Menu Przedmiotów Kolor Znaku "
+
+#: src/ui/classic/skin.desc:67 src/ui/classic/skin.desc:71
+#: src/ui/classic/skin.desc:75 src/ui/classic/skin.desc:79
+#: src/ui/classic/skin.desc:83 src/ui/classic/skin.desc:87
+#: src/ui/classic/skin.desc:91 src/ui/classic/skin.desc:95
+#: src/ui/classic/skin.desc:99 src/ui/classic/skin.desc:104
+#: src/ui/classic/skin.desc:109 src/ui/classic/skin.desc:114
+#: src/ui/classic/skin.desc:119 src/ui/classic/skin.desc:124
+#: src/ui/classic/skin.desc:139 src/ui/classic/skin.desc:144
+#: src/ui/classic/skin.desc:149 src/ui/classic/skin.desc:157
+#: src/ui/classic/skin.desc:165 src/ui/classic/skin.desc:170
+#: src/ui/classic/skin.desc:175 src/ui/classic/skin.desc:180
+msgid "SkinMainBar"
+msgstr "SkinMainBar"
+
+#: src/ui/classic/skin.desc:69 src/ui/classic/skin.desc:187
+#: src/ui/classic/skin.desc:317
+msgid "Background Image"
+msgstr "Zdjęcie w Tle"
+
+#: src/ui/classic/skin.desc:73
+msgid "Logo Icon"
+msgstr "Ikona Loga"
+
+#: src/ui/classic/skin.desc:77
+msgid "English Mode Icon"
+msgstr "Tryb Angielski ikona"
+
+#: src/ui/classic/skin.desc:81
+msgid "Active Mode Icon"
+msgstr "Tryb Aktywny ikona"
+
+#: src/ui/classic/skin.desc:85 src/ui/classic/skin.desc:191
+#: src/ui/classic/skin.desc:329
+msgid "Resize Margin Left"
+msgstr "Zmień Rozmiar Lewego Marginesu"
+
+#: src/ui/classic/skin.desc:89 src/ui/classic/skin.desc:195
+#: src/ui/classic/skin.desc:333
+msgid "Resize Margin Right"
+msgstr "Zmień Rozmiar Prawego Marginesu"
+
+#: src/ui/classic/skin.desc:93 src/ui/classic/skin.desc:199
+#: src/ui/classic/skin.desc:321
+msgid "Resize Margin Top"
+msgstr "Zmień Rozmiar Górnego Marginesu"
+
+#: src/ui/classic/skin.desc:97 src/ui/classic/skin.desc:203
+#: src/ui/classic/skin.desc:325
+msgid "Resize Margin Bottom"
+msgstr "Zmień Rozmiar Dolnego Marginesu"
+
+#: src/ui/classic/skin.desc:102 src/ui/classic/skin.desc:208
+#: src/ui/classic/skin.desc:338
+msgid "Margin Left for clickable region"
+msgstr "Lewy Margines jako obszar dający się klikać"
+
+#: src/ui/classic/skin.desc:107 src/ui/classic/skin.desc:213
+#: src/ui/classic/skin.desc:343
+msgid "Margin Right for clickable region"
+msgstr "Prawy Margines jako obszar dający się klikać"
+
+#: src/ui/classic/skin.desc:112 src/ui/classic/skin.desc:218
+#: src/ui/classic/skin.desc:348
+msgid "Margin Top for clickable region"
+msgstr "Górny Margines jako obszar dający się klikać"
+
+#: src/ui/classic/skin.desc:117 src/ui/classic/skin.desc:223
+#: src/ui/classic/skin.desc:353
+msgid "Margin Bottom for clickable region"
+msgstr "Dolny Margines jako obszar dający się klikać"
+
+#: src/ui/classic/skin.desc:122 src/ui/classic/skin.desc:228
+#: src/ui/classic/skin.desc:358
+msgid "Overlay image"
+msgstr "Zdjęcie powłoki"
+
+#: src/ui/classic/skin.desc:128 src/ui/classic/skin.desc:234
+#: src/ui/classic/skin.desc:364
+msgid "TopLeft"
+msgstr "GórnyLewy"
+
+#: src/ui/classic/skin.desc:129 src/ui/classic/skin.desc:235
+#: src/ui/classic/skin.desc:365
+msgid "TopCenter"
+msgstr "GórnyŚrodkowy"
+
+#: src/ui/classic/skin.desc:130 src/ui/classic/skin.desc:236
+#: src/ui/classic/skin.desc:366
+msgid "TopRight"
+msgstr "GórnyPrawy"
+
+#: src/ui/classic/skin.desc:131 src/ui/classic/skin.desc:237
+#: src/ui/classic/skin.desc:367
+msgid "CenterLeft"
+msgstr "ŚrodkowyLewy"
+
+#: src/ui/classic/skin.desc:132 src/ui/classic/skin.desc:238
+#: src/ui/classic/skin.desc:368
+msgid "Center"
+msgstr "Środkowy"
+
+#: src/ui/classic/skin.desc:133 src/ui/classic/skin.desc:239
+#: src/ui/classic/skin.desc:369
+msgid "CenterRight"
+msgstr "ŚrodkowyPrawy"
+
+#: src/ui/classic/skin.desc:134 src/ui/classic/skin.desc:240
+#: src/ui/classic/skin.desc:370
+msgid "BottomLeft"
+msgstr "DolnyLewy"
+
+#: src/ui/classic/skin.desc:135 src/ui/classic/skin.desc:241
+#: src/ui/classic/skin.desc:371
+msgid "BottomCenter"
+msgstr "DolnyŚrodkowy"
+
+#: src/ui/classic/skin.desc:136 src/ui/classic/skin.desc:242
+#: src/ui/classic/skin.desc:372
+msgid "BottomRight"
+msgstr "DolnyPrawy"
+
+#: src/ui/classic/skin.desc:137 src/ui/classic/skin.desc:243
+#: src/ui/classic/skin.desc:373
+msgid "Overlay dock position"
+msgstr "Powłoka pozycja doka"
+
+#: src/ui/classic/skin.desc:142 src/ui/classic/skin.desc:248
+#: src/ui/classic/skin.desc:378
+msgid "Overlay X offset"
+msgstr "Powłoka X offset"
+
+#: src/ui/classic/skin.desc:147 src/ui/classic/skin.desc:253
+#: src/ui/classic/skin.desc:383
+msgid "Overlay Y offset"
+msgstr "Powłoka Y offset"
+
+#: src/ui/classic/skin.desc:151 src/ui/classic/skin.desc:293
+#: src/ui/classic/skin.desc:395
+msgid "Fill Background Vertical rule"
+msgstr "Wypełnij tło zasada pionowa"
+
+#: src/ui/classic/skin.desc:153 src/ui/classic/skin.desc:161
+#: src/ui/classic/skin.desc:295 src/ui/classic/skin.desc:303
+#: src/ui/classic/skin.desc:397 src/ui/classic/skin.desc:405
+msgid "Copy"
+msgstr "Kopiuj"
+
+#: src/ui/classic/skin.desc:154 src/ui/classic/skin.desc:162
+#: src/ui/classic/skin.desc:296 src/ui/classic/skin.desc:304
+#: src/ui/classic/skin.desc:398 src/ui/classic/skin.desc:406
+msgid "Resize"
+msgstr "Zmień Rozmiar"
+
+#: src/ui/classic/skin.desc:159 src/ui/classic/skin.desc:301
+#: src/ui/classic/skin.desc:403
+msgid "Fill Background Horizontal rule"
+msgstr "Wypełnij tło zasada pozioma"
+
+#: src/ui/classic/skin.desc:167
+msgid "Use Custom text icon color"
+msgstr "Użyj niestandardowego koloru ikony tekstu"
+
+#: src/ui/classic/skin.desc:172
+msgid "Active Text Icon Color"
+msgstr "Aktywuj Kolor Tekstu Ikony"
+
+#: src/ui/classic/skin.desc:177
+msgid "Inactive Text Icon Color"
+msgstr "Wyłącz Kolor Tekstu Ikony"
+
+#: src/ui/classic/skin.desc:182
+msgid "Special Icon position"
+msgstr "Specjalne ustawienie ikon"
+
+#: src/ui/classic/skin.desc:185 src/ui/classic/skin.desc:189
+#: src/ui/classic/skin.desc:193 src/ui/classic/skin.desc:197
+#: src/ui/classic/skin.desc:201 src/ui/classic/skin.desc:205
+#: src/ui/classic/skin.desc:210 src/ui/classic/skin.desc:215
+#: src/ui/classic/skin.desc:220 src/ui/classic/skin.desc:225
+#: src/ui/classic/skin.desc:230 src/ui/classic/skin.desc:245
+#: src/ui/classic/skin.desc:250 src/ui/classic/skin.desc:255
+#: src/ui/classic/skin.desc:259 src/ui/classic/skin.desc:263
+#: src/ui/classic/skin.desc:267 src/ui/classic/skin.desc:271
+#: src/ui/classic/skin.desc:275 src/ui/classic/skin.desc:279
+#: src/ui/classic/skin.desc:283 src/ui/classic/skin.desc:287
+#: src/ui/classic/skin.desc:291 src/ui/classic/skin.desc:299
+msgid "SkinInputBar"
+msgstr "SkinInputBar"
+
+#: src/ui/classic/skin.desc:257
+msgid "Color of Cursor"
+msgstr "Kolor Kursora"
+
+#: src/ui/classic/skin.desc:261
+msgid "Position or offset of Preedit"
+msgstr "Pozycja offsetu preedit'a"
+
+#: src/ui/classic/skin.desc:265
+msgid "Position or offset of LookupTable"
+msgstr "Pozycja offsetu LookupTable"
+
+#: src/ui/classic/skin.desc:269 src/ui/classic/skin.desc:277
+#: src/ui/classic/skin.desc:285
+msgid "Prev Page Icon"
+msgstr "Ikona Poprzedniej Strony"
+
+#: src/ui/classic/skin.desc:273 src/ui/classic/skin.desc:281
+#: src/ui/classic/skin.desc:289
+msgid "Next Page Icon"
+msgstr "Ikona Następnej Strony"
+
+#: src/ui/classic/skin.desc:307 src/ui/classic/skin.desc:311
+msgid "SkinTrayIcon"
+msgstr "SkórkaIkonyZasobnika"
+
+#: src/ui/classic/skin.desc:309
+msgid "Active Tray Icon"
+msgstr "Aktywna Ikona Zasobnika"
+
+#: src/ui/classic/skin.desc:313
+msgid "Inactive Tray Icon"
+msgstr "Nieaktywna Ikona Zasobnika"
+
+#: src/ui/classic/skin.desc:315 src/ui/classic/skin.desc:319
+#: src/ui/classic/skin.desc:323 src/ui/classic/skin.desc:327
+#: src/ui/classic/skin.desc:331 src/ui/classic/skin.desc:335
+#: src/ui/classic/skin.desc:340 src/ui/classic/skin.desc:345
+#: src/ui/classic/skin.desc:350 src/ui/classic/skin.desc:355
+#: src/ui/classic/skin.desc:360 src/ui/classic/skin.desc:375
+#: src/ui/classic/skin.desc:380 src/ui/classic/skin.desc:385
+#: src/ui/classic/skin.desc:389 src/ui/classic/skin.desc:393
+#: src/ui/classic/skin.desc:401
+msgid "SkinMenu"
+msgstr "MenuSkórek"
+
+#: src/ui/classic/skin.desc:387
+msgid "Active Menu Color"
+msgstr "Aktywne Menu Koloru"
+
+#: src/ui/classic/skin.desc:391
+msgid "Space Line Color"
+msgstr "Kolor Znaku Spacji"
+
+#: src/ui/classic/skin.desc:409 src/ui/classic/skin.desc:414
+msgid "SkinKeyboard"
+msgstr "SkórkaKlawiatury"
+
+#: src/ui/classic/skin.desc:411
+msgid "Virtual Keyboard Image"
+msgstr "Zdjęcie Klawiatury Witrualnej"
+
+#: src/ui/classic/skin.desc:416
+msgid "Key Color On Virtual Keyboard"
+msgstr "Dominujący Kolor na Klawiaturze Wirtualnej "
+
+#: src/module/notificationitem/fcitx-notificationitem.desc:1
+#: src/module/notificationitem/fcitx-notificationitem.desc:6
+#: src/module/notificationitem/fcitx-notificationitem.desc:11
+#: src/module/notificationitem/fcitx-notificationitem.desc:16
+#: src/module/notificationitem/fcitx-notificationitem.desc:21
+msgid "Notificationitem"
+msgstr ""
+
+#: src/module/notificationitem/fcitx-notificationitem.desc:4
+msgid "Whether to display the right-click menu configuration item <Restart>"
+msgstr ""
+
+#: src/module/notificationitem/fcitx-notificationitem.desc:9
+msgid "Whether to display the right-click configuration item <Vk>"
+msgstr ""
+
+#: src/module/notificationitem/fcitx-notificationitem.desc:14
+msgid "Whether to display the right-click configuration item <Exit>"
+msgstr ""
+
+#: src/module/notificationitem/fcitx-notificationitem.desc:19
+msgid "Whether to display the right-click configuration item <Skins>"
+msgstr ""
+
+#: src/module/notificationitem/fcitx-notificationitem.desc:24
+msgid "Whether to display the right-click configuration item <Help>"
+msgstr ""

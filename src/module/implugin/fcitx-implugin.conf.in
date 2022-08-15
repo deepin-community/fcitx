@@ -1,0 +1,10 @@
+[Addon]
+Name=fcitx-implugin
+_GeneralName=fcitx-implugin
+_Comment=implugin
+Category=Module
+Enabled=True
+Library=fcitx-implugin.so
+Type=SharedLibrary
+Priority=40
+Advance=True

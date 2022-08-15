@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Test whether fcitx is running correctly with dbus...
+function trystart()
+{
+    fcitx-remote > /dev/null 2>&1
+
+    if [ $? = "1" ]; then
+        echo "Fcitx seems is not running"
+        /usr/bin/fcitx -d 2
+    else
+        echo "Fcitx is running correctly."
+    fi
+}
+
+trystart

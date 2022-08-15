@@ -1,0 +1,5 @@
+fcitx (1:4.2.9.32.38-deepin) stable; urgency=medium
+
+  * ['Rebuild  against by  current gcc 11.2']
+
+ -- Deepin Packages Builder <packages@deepin.org>  Fri, 12 Aug 2022 15:57:15 +0800
